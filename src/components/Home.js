@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section className="hero">
-        <h1>Welcome to SchoolCanvas</h1>
+        <h1>Welcome to E-educacare</h1>
         <p>Your trusted platform for school management and learning solutions.</p>
         <button className="ctaButton">Learn More</button>
       </section>
@@ -16,7 +16,7 @@ const Home = () => {
       <section className="sectionWithImage">
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="School Management"
             className="image"
           />
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="School Management"
             className="image"
           />
@@ -52,44 +52,7 @@ const Home = () => {
       <section className="sectionWithImage">
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
-            alt="School Management"
-            className="image"
-          />
-        </div>
-        <div className="contentContainer">
-          <h2>Streamline Your School Operations</h2>
-          <p>
-            Discover powerful tools and solutions to simplify school management,
-            enhance learning experiences, and empower administrators.
-          </p>
-          <button className="ctaButton">Explore More</button>
-        </div>
-      </section>
-
-      <section className="sectionWithImage">
-        <div className="contentContainer">
-          <h2>Streamline Your School Operations</h2>
-          <p>
-            Discover powerful tools and solutions to simplify school management,
-            enhance learning experiences, and empower administrators.
-          </p>
-          <button className="ctaButton">Explore More</button>
-        </div>
-        <div className="imageContainer">
-          <img
-            src="https://via.placeholder.com/400"
-            alt="School Management"
-            className="image"
-          />
-        </div>
-      </section>
-
-
-      <section className="sectionWithImage">
-        <div className="imageContainer">
-          <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/5905918/pexels-photo-5905918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="School Management"
             className="image"
           />
@@ -115,17 +78,18 @@ const Home = () => {
         </div>
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="School Management"
             className="image"
           />
         </div>
       </section>
 
+
       <section className="sectionWithImage">
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/21696/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="School Management"
             className="image"
           />
@@ -151,7 +115,43 @@ const Home = () => {
         </div>
         <div className="imageContainer">
           <img
-            src="https://via.placeholder.com/400"
+            src="https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="School Management"
+            className="image"
+          />
+        </div>
+      </section>
+
+      <section className="sectionWithImage">
+        <div className="imageContainer">
+          <img
+            src="https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="School Management"
+            className="image"
+          />
+        </div>
+        <div className="contentContainer">
+          <h2>Streamline Your School Operations</h2>
+          <p>
+            Discover powerful tools and solutions to simplify school management,
+            enhance learning experiences, and empower administrators.
+          </p>
+          <button className="ctaButton">Explore More</button>
+        </div>
+      </section>
+
+      <section className="sectionWithImage">
+        <div className="contentContainer">
+          <h2>Streamline Your School Operations</h2>
+          <p>
+            Discover powerful tools and solutions to simplify school management,
+            enhance learning experiences, and empower administrators.
+          </p>
+          <button className="ctaButton">Explore More</button>
+        </div>
+        <div className="imageContainer">
+          <img
+            src="https://images.pexels.com/photos/1181474/pexels-photo-1181474.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="School Management"
             className="image"
           />
