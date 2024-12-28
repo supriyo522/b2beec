@@ -23,6 +23,10 @@ const Navbar = () => {
           <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
+      <div className="navButtons">
+        <button className="learnMoreBtn">Learn More</button>
+        <button className="getStartedBtn">Get Started</button>
+      </div>
     </nav>
   );
 };

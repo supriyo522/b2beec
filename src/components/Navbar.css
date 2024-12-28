@@ -1,29 +1,63 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #0047AB;
-    color: #fff;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .navLinks {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .navLinks a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-  }
-  
-  .navLinks a:hover {
-    color: #FFD700; /* Gold color on hover */
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0047AB;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navLinks a:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+.navButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.learnMoreBtn,
+.getStartedBtn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.learnMoreBtn:hover {
+  background-color: #FFD700; /* Gold color */
+  color: #0047AB;
+  border-color: #FFD700;
+}
+
+.getStartedBtn {
+  background-color: #FFD700; /* Gold color */
+  color: #0047AB;
+}
+
+.getStartedBtn:hover {
+  background-color: #fff;
+  color: #0047AB;
+  border-color: #fff;
+}

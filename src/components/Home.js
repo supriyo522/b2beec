@@ -1,48 +1,31 @@
 import React from "react";
 import Contact from "./ContactUs";
+import Testimonials from "./Testimonials";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="hero">
-        <h1>Welcome to E-educacare</h1>
-        <p>Your trusted platform for school management and learning solutions.</p>
-        <button className="ctaButton">Learn More</button>
-      </section>
-
+    
       {/* Offerings Sections */}
       <section className="sectionWithImage">
-        <div className="imageContainer">
-          <img
-            src="https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="School Management"
-            className="image"
-          />
-        </div>
+        
         <div className="contentContainer">
-          <h2>Streamline Your School Operations</h2>
+          <h1>Welcome to EEC Educare</h1>
           <p>
-            Discover powerful tools and solutions to simplify school management,
-            enhance learning experiences, and empower administrators.
+          Discover a seamless blend of school management and personalized learning with our all-in-one platform. Track attendance, manage fees, and monitor progress effortlessly.
           </p>
+          <div className="buttonContainer">
           <button className="ctaButton">Explore More</button>
+          
+          <button className="ctaButton">Get Started</button>
         </div>
-      </section>
+        </div>
 
-      <section className="sectionWithImage">
-        <div className="contentContainer">
-          <h2>Streamline Your School Operations</h2>
-          <p>
-            Discover powerful tools and solutions to simplify school management,
-            enhance learning experiences, and empower administrators.
-          </p>
-          <button className="ctaButton">Explore More</button>
-        </div>
+
         <div className="imageContainer">
           <img
-            src="https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_PWxhQxNJ.webp"
             alt="School Management"
             className="image"
           />
@@ -50,24 +33,143 @@ const Home = () => {
       </section>
 
       <section className="sectionWithImage">
-        <div className="imageContainer">
-          <img
-            src="https://images.pexels.com/photos/5905918/pexels-photo-5905918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="School Management"
-            className="image"
-          />
+        <div className="contentContainer">
+          <h2>Discover EEC Educare's Vision</h2>
+        
         </div>
         <div className="contentContainer">
-          <h2>Streamline Your School Operations</h2>
+          
           <p>
-            Discover powerful tools and solutions to simplify school management,
-            enhance learning experiences, and empower administrators.
+          At EEC Educare, we are dedicated to transforming the educational landscape through our innovative ERP and LMS solutions. Founded in 2020, our mission is to enhance education by providing effective management systems that support personalized learning for every student. We value innovation, integrity, collaboration, and excellence, ensuring that our platform meets the evolving needs of schools and educators. Our team, led by experienced professionals in educational technology, is committed to creating a seamless experience for both administrators and learners. Join us in our journey to revolutionize education and empower students to achieve their full potential.
           </p>
-          <button className="ctaButton">Explore More</button>
+        </div>
+       
+      </section>
+
+      <section className="hero">
+      <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_yx1SWQrQ.webp"
+            alt="School Management"
+            className="image"/>
+      </section>
+
+
+      <section className="sectionWithImage">
+      <div className="contentContainer">
+          <h2>Explore Our Comprehensive Features</h2>
+          
+        </div>
+        <div className="contentContainer">
+         
+          <p>
+          EEC Educare offers a robust suite of tools designed to streamline school management and enhance student learning. From attendance tracking to interactive lessons, our platform provides everything educators need to create a seamless educational experience. Discover how our features can transform your school’s operations.
+          </p>
+          
         </div>
       </section>
 
+       {/* Our Offerings Section */}
+       <section className="section">
+        <div className="cardContainer">
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_j5tmzR8F.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Efficient Attendance Tracking</h3>
+            <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pSnVWQF5.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Interactive Lessons and Tools</h3>
+            <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective.</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_0uQoY4cE.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Comprehensive Progress Monitoring</h3>
+            <p>Track student progress with detailed analytics and personalized learning paths, helping educators tailor instruction to meet individual needs.</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+        </div>
+      </section>
+     
       <section className="sectionWithImage">
+      <div className="contentContainer">
+          <h2>Discover the Advantages of EEC Educare</h2>
+          
+        </div>
+        <div className="contentContainer">
+         
+          <p>
+          EEC Educare offers a comprehensive solution for schools, students, and parents. By integrating multiple functionalities into one platform, it streamlines administration and enhances learning. With personalized lessons, progress tracking, and parental controls, EEC Educare ensures a seamless educational experience for all stakeholders.
+          </p>
+          
+        </div>
+      </section>
+
+        {/* Our Offerings Section */}
+        <section className="section">
+        <div className="cardContainer">
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pelqsfDR.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Streamlined School Administration</h3>
+            <p>EEC Educare integrates attendance, fees, and report tracking into one platform, simplifying administrative tasks and saving time for educators..</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Enhanced Student Learning Tools</h3>
+            <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve their academic goals.</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+          <div className="card">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp"
+            alt="School Management"
+            className="image"
+          />
+            <h3>Effective Parental Engagement</h3>
+            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators, ensuring student success.</p>
+            <button className="ctaButton">Explore More</button>
+          </div>
+        </div>
+      </section>
+     
+
+      <section className="sectionWithImage">
+      <div className="contentContainer">
+          <h2>Understanding How EEC Educare Transforms Education</h2>
+          
+        </div>
+        <div className="contentContainer">
+         
+          <p>
+          EEC Educare simplifies school management by integrating attendance, fees, and report tracking into one platform. It enhances student learning with interactive lessons and progress monitoring, while offering parental controls for a comprehensive educational experience.
+         </p>
+          
+        </div>
+      </section>
+
+      {/* <section className="sectionWithImage">
         <div className="contentContainer">
           <h2>Streamline Your School Operations</h2>
           <p>
@@ -83,10 +185,10 @@ const Home = () => {
             className="image"
           />
         </div>
-      </section>
+      </section> */}
 
 
-      <section className="sectionWithImage">
+      {/* <section className="sectionWithImage">
         <div className="imageContainer">
           <img
             src="https://images.pexels.com/photos/21696/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -102,9 +204,9 @@ const Home = () => {
           </p>
           <button className="ctaButton">Explore More</button>
         </div>
-      </section>
+      </section> */}
 
-      <section className="sectionWithImage">
+      {/* <section className="sectionWithImage">
         <div className="contentContainer">
           <h2>Streamline Your School Operations</h2>
           <p>
@@ -120,9 +222,9 @@ const Home = () => {
             className="image"
           />
         </div>
-      </section>
+      </section> */}
 
-      <section className="sectionWithImage">
+      {/* <section className="sectionWithImage">
         <div className="imageContainer">
           <img
             src="https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -138,9 +240,9 @@ const Home = () => {
           </p>
           <button className="ctaButton">Explore More</button>
         </div>
-      </section>
+      </section> */}
 
-      <section className="sectionWithImage">
+      {/* <section className="sectionWithImage">
         <div className="contentContainer">
           <h2>Streamline Your School Operations</h2>
           <p>
@@ -156,10 +258,10 @@ const Home = () => {
             className="image"
           />
         </div>
-      </section>
+      </section> */}
 
       {/* Our Offerings Section */}
-      <section className="section">
+      {/* <section className="section">
         <h2>Our Offerings</h2>
         <div className="cardContainer">
           <div className="card">
@@ -179,14 +281,11 @@ const Home = () => {
             <p>Powerful tools to assist school admins.</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
-      <section className="testimonials">
-        <h2>What Our Users Say</h2>
-        <p>"SchoolCanvas has revolutionized our learning experience!" - John Doe</p>
-        <p>"The best platform for managing school operations!" - Jane Smith</p>
-      </section>
+      <Testimonials />
+
 
       {/* Contact Section */}
       <section className="contact">
