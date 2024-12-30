@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./ContactUs";
-import Testimonials from "./Testimonials";
+// import Testimonials from "./Testimonials";
 import "./Home.css";
 
 const Home = () => {
@@ -284,7 +284,7 @@ const Home = () => {
       </section> */}
 
       {/* Testimonials Section */}
-      <Testimonials />
+      {/* <Testimonials /> */}
 
 
       {/* Contact Section */}
