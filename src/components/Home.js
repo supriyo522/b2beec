@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "./ContactUs";
+// import Contact from "./ContactUs";
 // import Testimonials from "./Testimonials";
 import "./Home.css";
 
@@ -71,35 +71,47 @@ const Home = () => {
        {/* Our Offerings Section */}
        <section className="section">
         <div className="cardContainer">
+        <div className="card">
+  <div className="imageWrapper">
+    <img
+      src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_j5tmzR8F.webp"
+      alt="School Management"
+      className="image"
+    />
+  </div>
+  <div className="contentWrapper">
+    <h3>Efficient Attendance Tracking</h3>
+    <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
+    <button className="ctaButton">Explore More</button>
+  </div>
+</div>
           <div className="card">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_j5tmzR8F.webp"
-            alt="School Management"
-            className="image"
-          />
-            <h3>Efficient Attendance Tracking</h3>
-            <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
-            <button className="ctaButton">Explore More</button>
-          </div>
-          <div className="card">
+          <div className="imageWrapper">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pSnVWQF5.webp"
             alt="School Management"
             className="image"
           />
+          </div>
+          <div className="contentWrapper">
             <h3>Interactive Lessons and Tools</h3>
             <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective.</p>
             <button className="ctaButton">Explore More</button>
           </div>
+          </div>
           <div className="card">
+          <div className="imageWrapper">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_0uQoY4cE.webp"
             alt="School Management"
             className="image"
           />
+          </div>
+          <div className="contentWrapper">
             <h3>Comprehensive Progress Monitoring</h3>
             <p>Track student progress with detailed analytics and personalized learning paths, helping educators tailor instruction to meet individual needs.</p>
             <button className="ctaButton">Explore More</button>
+          </div>
           </div>
         </div>
       </section>
@@ -127,10 +139,12 @@ const Home = () => {
             alt="School Management"
             className="image"
           />
+        
             <h3>Streamlined School Administration</h3>
             <p>EEC Educare integrates attendance, fees, and report tracking into one platform, simplifying administrative tasks and saving time for educators..</p>
             <button className="ctaButton">Explore More</button>
-          </div>
+            </div>
+          
           <div className="card">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp"
@@ -288,11 +302,11 @@ const Home = () => {
 
 
       {/* Contact Section */}
-      <section className="contact">
+      {/* <section className="contact">
         <h2>Contact Us</h2>
         <p>Have questions? We’re here to help!</p>
         <button className="ctaButton">Get in Touch</button>
-      </section>
+      </section> */}
      
     </div>
   );

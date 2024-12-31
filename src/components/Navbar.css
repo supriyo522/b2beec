@@ -3,31 +3,32 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff; /* White background */
-  color: #000; /* Black text color */
+  background-color: #fff;
+  color: #000;
   border-bottom: 1px solid #ccc;
+  position: relative;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #000; /* Black text color */
 }
 
 .navLinks {
   list-style: none;
   display: flex;
   gap: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .navLinks a {
   text-decoration: none;
-  color: #000; /* Black text color */
+  color: #000;
   transition: color 0.3s;
 }
 
 .navLinks a:hover {
-  color: #0047AB; /* Blue color on hover */
+  color: #0047AB;
 }
 
 .navButtons {
@@ -37,9 +38,9 @@
 
 .learnMoreBtn,
 .getStartedBtn {
-  background-color: #0047AB; /* Blue background */
-  border: 2px solid #0047AB; /* Blue border */
-  color: #fff; /* White text */
+  background-color: #0047AB;
+  border: 2px solid #0047AB;
+  color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
@@ -49,6 +50,69 @@
 
 .learnMoreBtn:hover,
 .getStartedBtn:hover {
-  background-color: #003366; /* Darker blue on hover */
+  background-color: #003366;
   border-color: #003366;
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .navLinks.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navButtons {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .learnMoreBtn,
+  .getStartedBtn {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .navLinks a {
+    font-size: 0.9rem;
+  }
+
+  .learnMoreBtn,
+  .getStartedBtn {
+    font-size: 0.8rem;
+  }
 }

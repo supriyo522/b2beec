@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Features from "./components/Features";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 const App = () => (
   <Router>
@@ -19,6 +20,7 @@ const App = () => (
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </div>
+    <Footer /> 
   </Router>
 );
 
