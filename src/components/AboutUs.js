@@ -36,7 +36,7 @@ involved. It’s the future of education, delivered today.
             </p>
           </div>
           <div className="stat">
-            <h2>connectivity</h2>
+            <h2>Connectivity</h2>
             <p>
             The platform acts as a central hub, bridging the gap between management, teachers,
 students, and parents. With real-time connectivity and intuitive features.

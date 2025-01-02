@@ -85,7 +85,7 @@ towards automating your schools operational needs.
   <div className="contentWrapper">
     <h3>Efficient Attendance Tracking</h3>
     <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
-    <button className="ctaButton">Explore More</button>
+    {/* <button className="ctaButton">Explore More</button> */}
   </div>
 </div>
           <div className="card">
@@ -99,7 +99,7 @@ towards automating your schools operational needs.
           <div className="contentWrapper">
             <h3>Interactive Lessons and Tools</h3>
             <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective  and advance.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
           <div className="card">
@@ -113,7 +113,7 @@ towards automating your schools operational needs.
           <div className="contentWrapper">
             <h3>Comprehensive Progress Monitoring</h3>
             <p>Track student progress with detailed analytics and personalized learning paths, helping educators tailor instruction to meet individual needs.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
           <div className="card">
@@ -127,7 +127,7 @@ towards automating your schools operational needs.
   <div className="contentWrapper">
     <h3>Efficient Attendance Tracking</h3>
     <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
-    <button className="ctaButton">Explore More</button>
+    {/* <button className="ctaButton">Explore More</button> */}
   </div>
 </div>
         </div>
@@ -159,7 +159,7 @@ towards automating your schools operational needs.
         
             <h3>Streamlined School Administration</h3>
             <p>EEC Educare integrates attendance, fees, and report tracking into one platform, simplifying administrative tasks and saving time for educators..</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
             </div>
           
           <div className="card">
@@ -170,7 +170,7 @@ towards automating your schools operational needs.
           />
             <h3>Enhanced Student Learning Tools</h3>
             <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -180,7 +180,7 @@ towards automating your schools operational needs.
           />
             <h3>Effective Parental Engagement</h3>
             <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
         </div>
       </section>

@@ -37,10 +37,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className="navButtons">
+      {/* <div className="navButtons">
         <button className="learnMoreBtn">Learn More</button>
         <button className="getStartedBtn">Get Started</button>
-      </div>
+      </div> */}
     </nav>
   );
 };

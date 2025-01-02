@@ -28,7 +28,7 @@ const Features = () => (
           <div className="contentWrapper">
             <h3>Efficient School Management</h3>
             <p>Our platform simplifies administrative tasks with features like attendance and fee tracking, allowing educators to focus more on teaching and less on paperwork.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
           <div className="card">
@@ -42,7 +42,7 @@ const Features = () => (
           <div className="contentWrapper">
             <h3>Interactive Learning Tools</h3>
             <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective and also advance</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
           <div className="card">
@@ -56,7 +56,7 @@ const Features = () => (
           <div className="contentWrapper">
             <h3>Parental Controls and Monitoring</h3>
             <p>Parents can effortlessly monitor their child's academic progress, milestones, and overall achievements through an intuitive tracking system. This ensures  in their child’s educational.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ const Features = () => (
           />
             <h3>Real-Time Attendance Tracking</h3>
             <p>Monitor student attendance effortlessly with our real-time tracking system. This feature ensures accurate record-keeping and helps educators maintain a structured learning environment.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -96,7 +96,7 @@ const Features = () => (
           />
             <h3>Interactive Lessons for Engagement</h3>
             <p>Our interactive lessons are designed to captivate students' attention and enhance their learning experience. These tools make learning more engaging and effective.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -106,7 +106,7 @@ const Features = () => (
           />
             <h3>Comprehensive Progress Monitoring</h3>
             <p>Track and analyze student progress with our comprehensive monitoring tools. This feature provides valuable insights to help educators tailor their teaching strategies.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
         </div>
       </section>

@@ -3,13 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
+  background-color: #6781d7;
   color: #000;
   border-bottom: 1px solid #ccc;
   position: relative;
 }
 
 .logo {
+  color: rgb(231, 213, 15);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -23,12 +24,12 @@
 
 .navLinks a {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   transition: color 0.3s;
 }
 
 .navLinks a:hover {
-  color: #0047AB;
+  color: #d3d617;
 }
 
 .navButtons {

@@ -29,7 +29,7 @@ educating.
           />
             <h3>Streamlined School Management</h3>
             <p>EEC Educare simplifies administrative processes, enabling schools to manage attendance, fees, and reports efficiently. This allows educators to dedicate more time to teaching and less to paperwork.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -39,7 +39,7 @@ educating.
           />
             <h3>User-Friendly Interface</h3>
             <p>Our innovative platform provides an exceptionally user-friendly interface, designed to simplify and streamline the management of school operations. With its intuitive features and functionality,ensures a seamless and efficient experience for administrators.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -49,7 +49,7 @@ educating.
           />
             <h3>Enhanced Collaboration</h3>
             <p>EEC Educare promotes a collaborative environment among educators by offering a comprehensive suite of tools that enable them to effectively track student progress, share valuable insights, and exchange innovative teaching strategies.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
         </div>
       </section>
@@ -82,7 +82,7 @@ optimized experience.
           />
             <h3>Efficient School</h3>
             <p>Our platform simplifies administrative tasks with features like attendance and fee tracking, allowing educators to focus more on teaching and less on paperwork.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -92,7 +92,7 @@ optimized experience.
           />
             <h3>Interactive Learning Tools</h3>
             <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
           <img
@@ -102,7 +102,7 @@ optimized experience.
           />
             <h3>Parental Controls</h3>
             <p>Our platform empowers parents to stay actively involved in their child's educational journey by providing user-friendly tools to track progress, and review important milestones.</p>
-            <button className="ctaButton">Explore More</button>
+            {/* <button className="ctaButton">Explore More</button> */}
           </div>
         </div>
       </section>
