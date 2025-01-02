@@ -7,38 +7,39 @@ const AboutUs = () => (
       <div className="commitment-content">
         <h1>Our Commitment to Education</h1>
         <p>
-          At EEC Educare, we believe in transforming education through our
-          innovative ERP and LMS solutions. Our mission is to provide every
-          student with the necessary support to thrive in their learning
-          journey.
+        EEC transforms the way schools operate by offering a comprehensive, all-in-one platform
+that redefines efficiency and connectivity. By seamlessly integrating all operational
+processes into a paperless ecosystem, EEC eliminates complexities, reduces manual effort,
+and ensures a smarter, more streamlined and efficient approach to school management
+system.
         </p>
         <div className="commitment-stats">
           <div className="stat">
             <h2>100 %</h2>
             <p>
-              We aim for 100% student engagement through our interactive lessons
-              and personalized learning paths.
+            EEC isn’t just a platform but a revolution in education, creating a unified, efficient, and
+connected environment where schools thrive, students excel, and parents stay actively
+involved. It’s the future of education, delivered today.
             </p>
           </div>
           <div className="stat">
-            <h2>200 schools</h2>
+            <h2>SaaS</h2>
             <p>
-              We have partnered with over 200 schools to enhance their
-              management and learning systems.
+            we're delving into the world of Software as a Service (SaaS) to help you better understand key concepts like integrations, data automations, and extracts. Our goal is to help you make informed decisions when investing in new software for your schools.
             </p>
           </div>
           <div className="stat">
-            <h2>5 values</h2>
+            <h2>Unified 360-Degree</h2>
             <p>
               Our core values include Innovation, Integrity, Collaboration, and
-              Excellence, which guide our operations and interactions.
+              Excellence, which guide our operations and interactions.Revolutionizing Education with a Unified 360-Degree Platform
             </p>
           </div>
           <div className="stat">
-            <h2>2024 years</h2>
+            <h2>connectivity</h2>
             <p>
-              Since our founding in 2020, we have continuously evolved to meet
-              the needs of the education sector.
+            The platform acts as a central hub, bridging the gap between management, teachers,
+students, and parents. With real-time connectivity and intuitive features.
             </p>
           </div>
         </div>

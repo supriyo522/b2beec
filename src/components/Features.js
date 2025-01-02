@@ -41,7 +41,7 @@ const Features = () => (
           </div>
           <div className="contentWrapper">
             <h3>Interactive Learning Tools</h3>
-            <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective.</p>
+            <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective and also advance</p>
             <button className="ctaButton">Explore More</button>
           </div>
           </div>
@@ -55,7 +55,7 @@ const Features = () => (
           </div>
           <div className="contentWrapper">
             <h3>Parental Controls and Monitoring</h3>
-            <p>Parents can easily track their child's progress and achievements, ensuring they stay informed and involved in their educational journey.</p>
+            <p>Parents can effortlessly monitor their child's academic progress, milestones, and overall achievements through an intuitive tracking system. This ensures  in their child’s educational.</p>
             <button className="ctaButton">Explore More</button>
           </div>
           </div>

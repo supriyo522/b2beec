@@ -11,15 +11,18 @@ const Home = () => {
       <section className="sectionWithImage">
         
         <div className="contentContainer">
-          <h1>Welcome to EEC Educare</h1>
+          <h1>Welcome to EEC – where innovation meets efficiency.</h1>
           <p>
-          Discover a seamless blend of school management and personalized learning with our all-in-one platform. Track attendance, manage fees, and monitor progress effortlessly.
+          At EEC, we empower schools with cutting-edge software based solutions tailored to
+streamline all operational functions starting from student management information and
+extending to and beyond finance, HR, report generation etc. We at EEC are committed
+towards automating your schools operational needs.
           </p>
-          <div className="buttonContainer">
+          {/* <div className="buttonContainer">
           <button className="ctaButton">Explore More</button>
           
           <button className="ctaButton">Get Started</button>
-        </div>
+        </div> */}
         </div>
 
 
@@ -95,7 +98,7 @@ const Home = () => {
           </div>
           <div className="contentWrapper">
             <h3>Interactive Lessons and Tools</h3>
-            <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective.</p>
+            <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective  and advance.</p>
             <button className="ctaButton">Explore More</button>
           </div>
           </div>
@@ -113,6 +116,20 @@ const Home = () => {
             <button className="ctaButton">Explore More</button>
           </div>
           </div>
+          <div className="card">
+  <div className="imageWrapper">
+    <img
+      src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_j5tmzR8F.webp"
+      alt="School Management"
+      className="image"
+    />
+  </div>
+  <div className="contentWrapper">
+    <h3>Efficient Attendance Tracking</h3>
+    <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
+    <button className="ctaButton">Explore More</button>
+  </div>
+</div>
         </div>
       </section>
      
@@ -152,7 +169,7 @@ const Home = () => {
             className="image"
           />
             <h3>Enhanced Student Learning Tools</h3>
-            <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve their academic goals.</p>
+            <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve.</p>
             <button className="ctaButton">Explore More</button>
           </div>
           <div className="card">
@@ -162,7 +179,7 @@ const Home = () => {
             className="image"
           />
             <h3>Effective Parental Engagement</h3>
-            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators, ensuring student success.</p>
+            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
             <button className="ctaButton">Explore More</button>
           </div>
         </div>
