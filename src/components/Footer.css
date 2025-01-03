@@ -1,7 +1,7 @@
 .footer {
   background-color: #505ae1;
   color: #fff;
-  padding: 1 rem;
+  padding: 1rem;
   width: 100%;
 }
 
@@ -26,9 +26,6 @@
 
 .footerRight {
   flex: 2;
-}
-.footerRight iframe {
-  border-radius: 8px;
 }
 
 .footerContent p,
@@ -73,12 +70,18 @@
   color: #dc10b0;
 }
 
+/* Map Iframe Styling */
+.mapIframe {
+  border-radius: 10px; /* Rounds all four corners */
+  margin-top: 1rem; /* Adds gap from the top */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Adds a subtle border */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
 /* Footer Bottom */
 .footerBottom p {
   color: #fff;
   text-align: center;
-  /* margin-top: 1rem; */
-  /* padding-top: 1rem; */
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
