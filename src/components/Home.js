@@ -11,7 +11,8 @@ const Home = () => {
       <section className="sectionWithImage">
         
         <div className="contentContainer">
-          <h1>Welcome to EEC – where innovation meets efficiency.</h1>
+          <h1>Welcome to EEC </h1>
+          <h2>– where innovation meets efficiency.</h2>
           <p>
           At EEC, we empower schools with cutting-edge software based solutions tailored to
 streamline all operational functions starting from student management information and
@@ -151,36 +152,47 @@ towards automating your schools operational needs.
         <section className="section">
         <div className="cardContainer">
           <div className="card">
+          <div className="imageWrapper">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pelqsfDR.webp"
             alt="School Management"
             className="image"
           />
-        
+          </div>
+          <div className="contentWrapper">
             <h3>Streamlined School Administration</h3>
             <p>EEC Educare integrates attendance, fees, and report tracking into one platform, simplifying administrative tasks and saving time for educators..</p>
             {/* <button className="ctaButton">Explore More</button> */}
             </div>
+            </div>
           
           <div className="card">
+          <div className="imageWrapper">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp"
             alt="School Management"
             className="image"
           />
+          </div>
+          <div className="contentWrapper">
             <h3>Enhanced Student Learning Tools</h3>
             <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
+          </div>
           <div className="card">
+          <div className="imageWrapper">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp"
             alt="School Management"
             className="image"
           />
+          </div>
+          <div className="contentWrapper">
             <h3>Effective Parental Engagement</h3>
             <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
             {/* <button className="ctaButton">Explore More</button> */}
+          </div>
           </div>
         </div>
       </section>

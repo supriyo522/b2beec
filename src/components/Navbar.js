@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className={`navLinks ${menuOpen ? "open" : ""}`}>
         <li>
           <Link to="/" onClick={() => setMenuOpen(false)}>
-            Home
+           <button> Home</button>
           </Link>
         </li>
         <li>
