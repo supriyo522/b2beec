@@ -18,22 +18,22 @@ const Navbar = () => {
       <ul className={`navLinks ${menuOpen ? "open" : ""}`}>
         <li>
           <Link to="/" onClick={() => setMenuOpen(false)}>
-           <button> Home</button>
+           <button className="learnMoreBtn"> Home</button>
           </Link>
         </li>
         <li>
           <Link to="/about" onClick={() => setMenuOpen(false)}>
-            About Us
+          <button className="learnMoreBtn">About Us</button>
           </Link>
         </li>
         <li>
           <Link to="/features" onClick={() => setMenuOpen(false)}>
-            Features
+          <button className="learnMoreBtn"> Features</button>
           </Link>
         </li>
         <li>
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
-            Benefits
+          <button className="learnMoreBtn">Benefits</button>
           </Link>
         </li>
       </ul>

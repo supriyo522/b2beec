@@ -27,6 +27,9 @@
 .footerRight {
   flex: 2;
 }
+.footerRight iframe {
+  border-radius: 8px;
+}
 
 .footerContent p,
 .footerContent h3 {

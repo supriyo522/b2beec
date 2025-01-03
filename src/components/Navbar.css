@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: #b0bfed45;
   color: #000;
   border-bottom: 1px solid #ccc;
@@ -11,7 +11,7 @@
 
 .logo {
   color: rgb(231, 213, 15);
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
