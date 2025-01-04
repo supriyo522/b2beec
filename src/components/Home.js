@@ -6,18 +6,16 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
+    <h1>Welcome to EEC </h1>
     
       {/* Offerings Sections */}
       <section className="sectionWithImage">
         
         <div className="contentContainer">
-          <h1>Welcome to EEC </h1>
-          <h2>– where innovation meets efficiency.</h2>
+          {/* <h1>Welcome to EEC </h1> */}
+          <h2>Innovation Meets Efficiency:</h2>
           <p>
-          At EEC, we empower schools with cutting-edge software based solutions tailored to
-streamline all operational functions starting from student management information and
-extending to and beyond finance, HR, report generation etc. We at EEC are committed
-towards automating your schools operational needs.
+          Innovation and efficiency converge, driving progress and productivity. In school management, this fusion enables educators to focus on teaching, while automating administrative tasks. Our School solution embodies this blend, simplifying management, enhancing engagement, and fostering improvement. Join us in revolutionizing education.
           </p>
           {/* <div className="buttonContainer">
           <button className="ctaButton">Explore More</button>
@@ -38,13 +36,13 @@ towards automating your schools operational needs.
 
       <section className="sectionWithImage">
         <div className="contentContainer">
-          <h2>Discover EEC Educare's Vision</h2>
+          <h2>EEC Vision:</h2>
         
         </div>
         <div className="contentContainer">
           
           <p>
-          At EEC Educare, we are dedicated to transforming the educational landscape through our innovative ERP and LMS solutions. Founded in 2020, our mission is to enhance education by providing effective management systems that support personalized learning for every student. We value innovation, integrity, collaboration, and excellence, ensuring that our platform meets the evolving needs of schools and educators. Our team, led by experienced professionals in educational technology, is committed to creating a seamless experience for both administrators and learners. Join us in our journey to revolutionize education and empower students to achieve their full potential.
+          Transforming Education through Innovation At EEC Educare, we&#39;re dedicated to revolutionizing the educational landscape with our cutting-edge ERP and LMS solutions. Founded in 2020, our mission is to enhance education by providing effective management systems that support personalized learning for every student. Guided by our core values of innovation, integrity, collaboration, and excellence, we&#39;re committed to delivering solutions that meet the evolving needs of schools educators and parents . Our team of experienced professionals in educational technology is dedicated to creating a seamless experience for both administrators and learners. Our platform is designed to empower educators, students, and institutions alike. With innovative features, intuitive interfaces, and seamless integrations, this revolutionary platform is poised to transform the way you learn, teach, and succeed. Experience the future of education today.
           </p>
         </div>
        
@@ -84,9 +82,17 @@ towards automating your schools operational needs.
     />
   </div>
   <div className="contentWrapper">
-    <h3>Efficient Attendance Tracking</h3>
-    <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
+    <h3>The Smart track attendance</h3>
+    <p>School Management and Parents to stay connected, stay informed. Our attendance tracking system
+keeps both management and parents in the loop, ensuring everyone is always up-to-date on the
+students attendance:</p>
     {/* <button className="ctaButton">Explore More</button> */}
+    <ul className="featuresList">
+          <li>Real-time attendance updates</li>
+          <li>Automated notifications to parents</li>
+          <li>Easy access to attendance records</li>
+          {/* <li>Improved student accountability</li> */}
+        </ul>
   </div>
 </div>
           <div className="card">
@@ -98,9 +104,15 @@ towards automating your schools operational needs.
           />
           </div>
           <div className="contentWrapper">
-            <h3>Interactive Lessons and Tools</h3>
-            <p>Engage students with our interactive lesson tools that promote active learning and participation, making education more dynamic and effective  and advance.</p>
+            <h3>Elevate Learning with Enhanced Educating</h3>
+            <p>Transform the way you teach and learn with our innovative solutions. Enhanced educating enables:</p>
             {/* <button className="ctaButton">Explore More</button> */}
+            <ul className="featuresList">
+          <li>Personalized educating experiences tailored to individual needs</li>
+          <li>Time Table management.</li>
+          <li>Real-time assessment and report card generation</li>
+          <li>Collaboration tools to foster communication and teamwork</li>
+        </ul>
           </div>
           </div>
           <div className="card">
@@ -112,9 +124,15 @@ towards automating your schools operational needs.
           />
           </div>
           <div className="contentWrapper">
-            <h3>Comprehensive Progress Monitoring</h3>
-            <p>Track student progress with detailed analytics and personalized learning paths, helping educators tailor instruction to meet individual needs.</p>
+            <h3>Unlock Insights with Comprehensive Reports</h3>
+            <p>Make informed decisions with our detailed and customizable reports. Our comprehensive reporting system provides:</p>
             {/* <button className="ctaButton">Explore More</button> */}
+            <ul className="featuresList">
+          <li>Financial and administrative insights</li>
+          <li>In-depth analysis of fees collection and dues.</li>
+          <li>Student performance and progress</li>
+          <li>Teacher and staff performance evaluations</li>
+        </ul>
           </div>
           </div>
           <div className="card">
@@ -126,9 +144,15 @@ towards automating your schools operational needs.
     />
   </div>
   <div className="contentWrapper">
-    <h3>Efficient Attendance Tracking</h3>
-    <p>Our platform simplifies attendance management with real-time tracking and easy-to-use calendar views, ensuring accurate records and efficient administration.</p>
+    <h3>Streamline Management with Ease</h3>
+    <p>Our master access feature provides a high-quality education with:</p>
     {/* <button className="ctaButton">Explore More</button> */}
+    <ul className="featuresList">
+          <li>Centralized report over all functionalities.</li>
+          <li>Ability to manage user roles, permissions, and access levels.</li>
+          <li>Control over data management.</li>
+          <li>Customizable dashboards for personalized insights and oversight.</li>
+        </ul>
   </div>
 </div>
         </div>
@@ -136,14 +160,21 @@ towards automating your schools operational needs.
      
       <section className="sectionWithImage">
       <div className="contentContainer">
-          <h2>Discover the Advantages of EEC Educare</h2>
+          <h2>Unlock the Full Potential of Your Institution with Our ERP</h2>
           
         </div>
         <div className="contentContainer">
          
           <p>
-          EEC Educare offers a comprehensive solution for schools, students, and parents. By integrating multiple functionalities into one platform, it streamlines administration and enhances learning. With personalized lessons, progress tracking, and parental controls, EEC Educare ensures a seamless educational experience for all stakeholders.
+        Our ERP system offers a range of benefits, including:
           </p>
+          <ul className="featuresList">
+          <li>Customizable solutions to meet your needs.</li>
+          <li>User-friendly interface for seamless navigation and minimal training.</li>
+          <li>Dedicated customer support team for prompt assistance in hybrid mode.</li>
+          <li>Robust data security measures.</li>
+          <li>Real-time insights and analytics for informed decision-making.</li>
+        </ul>
           
         </div>
       </section>
@@ -192,6 +223,7 @@ towards automating your schools operational needs.
             <h3>Effective Parental Engagement</h3>
             <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
             {/* <button className="ctaButton">Explore More</button> */}
+            
           </div>
           </div>
         </div>
