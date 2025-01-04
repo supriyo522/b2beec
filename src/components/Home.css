@@ -143,11 +143,18 @@ p {
   text-align: left; /* Align text to the left */
   padding: 0;
   margin: 1rem 0;
-  list-style-type: disc;
-  list-style-position: inside;
+  list-style-type: square;
+  /* list-style: square inside url("sqpurple.gif"); */
+  /* list-style-position: inside; */
   color: #333;
   font-size: 0.9rem;
 }
+.featuresList li::marker {
+  color: #b2a61c; /* Color for bullet points */
+  font-size: 1.5em;
+
+}
+
 .featuresList li {
   margin-bottom: 0.5rem;
 }

@@ -15,7 +15,10 @@ const Home = () => {
           {/* <h1>Welcome to EEC </h1> */}
           <h2>Innovation Meets Efficiency:</h2>
           <p>
-          Innovation and efficiency converge, driving progress and productivity. In school management, this fusion enables educators to focus on teaching, while automating administrative tasks. Our School solution embodies this blend, simplifying management, enhancing engagement, and fostering improvement. Join us in revolutionizing education.
+          Innovation and efficiency converge, driving progress and productivity. In school management, this
+fusion enables educators to focus on teaching, while automating administrative tasks. Our School
+solution embodies this blend, simplifying management, enhancing engagement, and fostering
+improvement. Join us in revolutionizing education.
           </p>
           {/* <div className="buttonContainer">
           <button className="ctaButton">Explore More</button>
@@ -35,10 +38,10 @@ const Home = () => {
       </section>
 
       <section className="sectionWithImage">
-        <div className="contentContainer">
+        {/* <div className="contentContainer">
           <h2>EEC Vision:</h2>
         
-        </div>
+        </div> */}
         <div className="contentContainer">
           
           <p>
@@ -88,10 +91,10 @@ keeps both management and parents in the loop, ensuring everyone is always up-to
 students attendance:</p>
     {/* <button className="ctaButton">Explore More</button> */}
     <ul className="featuresList">
-          <li>Real-time attendance updates</li>
-          <li>Automated notifications to parents</li>
-          <li>Easy access to attendance records</li>
-          {/* <li>Improved student accountability</li> */}
+          <li>Real-time attendance updates.</li>
+          <li>Automated notifications to parents.</li>
+          <li>Easy access to attendance records.</li>
+          <li>Improved student accountability.</li>
         </ul>
   </div>
 </div>
@@ -108,10 +111,10 @@ students attendance:</p>
             <p>Transform the way you teach and learn with our innovative solutions. Enhanced educating enables:</p>
             {/* <button className="ctaButton">Explore More</button> */}
             <ul className="featuresList">
-          <li>Personalized educating experiences tailored to individual needs</li>
+          <li>Personalized educating experiences tailored to individual needs.</li>
           <li>Time Table management.</li>
-          <li>Real-time assessment and report card generation</li>
-          <li>Collaboration tools to foster communication and teamwork</li>
+          <li>Real-time assessment and report card generation.</li>
+          <li>Collaboration tools to foster communication and teamwork.</li>
         </ul>
           </div>
           </div>
@@ -128,10 +131,10 @@ students attendance:</p>
             <p>Make informed decisions with our detailed and customizable reports. Our comprehensive reporting system provides:</p>
             {/* <button className="ctaButton">Explore More</button> */}
             <ul className="featuresList">
-          <li>Financial and administrative insights</li>
+          <li>Financial and administrative insights.</li>
           <li>In-depth analysis of fees collection and dues.</li>
-          <li>Student performance and progress</li>
-          <li>Teacher and staff performance evaluations</li>
+          <li>Student performance and progress.</li>
+          <li>Teacher and staff performance evaluations.</li>
         </ul>
           </div>
           </div>
@@ -145,7 +148,7 @@ students attendance:</p>
   </div>
   <div className="contentWrapper">
     <h3>Streamline Management with Ease</h3>
-    <p>Our master access feature provides a high-quality education with:</p>
+    <p>Our master access feature provides a high-quality education with Simplify management tasks, reduce administrative burdens:</p>
     {/* <button className="ctaButton">Explore More</button> */}
     <ul className="featuresList">
           <li>Centralized report over all functionalities.</li>
@@ -209,6 +212,21 @@ students attendance:</p>
             <h3>Enhanced Student Learning Tools</h3>
             <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve.</p>
             {/* <button className="ctaButton">Explore More</button> */}
+          </div>
+          </div>
+          <div className="card">
+          <div className="imageWrapper">
+          <img
+            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp"
+            alt="School Management"
+            className="image"
+          />
+          </div>
+          <div className="contentWrapper">
+            <h3>Effective Parental Engagement</h3>
+            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
+            {/* <button className="ctaButton">Explore More</button> */}
+            
           </div>
           </div>
           <div className="card">
