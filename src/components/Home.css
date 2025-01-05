@@ -5,6 +5,8 @@ body {
   padding: 0;
   line-height: 1.6;
 }
+
+
 h1{
   text-align: center;
   color: #0047AB;
@@ -19,6 +21,8 @@ p {
   color: #333;
   margin-bottom: 1rem;
 }
+
+
 
 /* Buttons */
 .ctaButton {
@@ -68,6 +72,7 @@ p {
 /* Section with Image */
 .sectionWithImage {
   display: flex;
+  
   align-items: center;
   justify-content: center;
   /* padding: 2rem 1rem; */
@@ -130,6 +135,9 @@ p {
   background-color: azure;
   padding: 1rem;
 }
+.contentWrapper p{
+ text-align: left;
+}
 
 .card h3 {
   margin-bottom: 0.5rem;
@@ -150,7 +158,7 @@ p {
   font-size: 0.9rem;
 }
 .featuresList li::marker {
-  color: #b2a61c; /* Color for bullet points */
+  color: #181816; /* Color for bullet points */
   font-size: 1.5em;
 
 }

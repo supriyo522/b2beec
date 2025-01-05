@@ -8,22 +8,26 @@ const Footer = () => {
         <div className="footerLeft">
           <h3>Get In Touch With Us</h3>
           <p>
-            <i className="fas fa-phone"></i> Contact No: +91 9830590929
+            <i className="fas fa-phone"></i> +91 9830590929
           </p>
+          <hr/>
           <p>
-            <i className="fas fa-envelope"></i> Email:{" "}
+            <i className="fas fa-envelope"></i> {" "}
             <a href="mailto:electroniceducaresales@yarrowtech.co.in">
               electroniceducaresales@yarrowtech.co.in
             </a>
           </p>
+          <hr/>
           <ul className="footerLinks">
             <li>
               <a href="/privacy-policy">Privacy Policy</a>
             </li>
+
             <li>
               <a href="/terms-of-service">Terms of Service</a>
             </li>
           </ul>
+          <hr/>
           <h3>Follow Us</h3>
           <div className="socialLinks">
             <a

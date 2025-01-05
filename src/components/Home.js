@@ -1,6 +1,8 @@
 import React from "react";
 // import Contact from "./ContactUs";
 // import Testimonials from "./Testimonials";
+import Content from "./Content";
+// import ImageCarousel from "./ImageCarousel";
 import "./Home.css";
 
 const Home = () => {
@@ -9,45 +11,49 @@ const Home = () => {
     <h1>Welcome to EEC </h1>
     
       {/* Offerings Sections */}
-      <section className="sectionWithImage">
+      <Content/>
+  
+     
+      
+      {/* <section className="sectionWithImage">
         
         <div className="contentContainer">
           {/* <h1>Welcome to EEC </h1> */}
-          <h2>Innovation Meets Efficiency:</h2>
+          {/* <h2>Innovation Meets Efficiency:</h2>
           <p>
           Innovation and efficiency converge, driving progress and productivity. In school management, this
 fusion enables educators to focus on teaching, while automating administrative tasks. Our School
 solution embodies this blend, simplifying management, enhancing engagement, and fostering
-improvement. Join us in revolutionizing education.
-          </p>
+improvement. Join us in revolutionizing education.Transforming Education through Innovation At EEC Educare, we're dedicated to revolutionizing the educational landscape with our cutting-edge ERP and LMS solutions. Founded in 2020, our mission is to enhance education by providing effective management systems that support personalized learning for every student. Guided by our core values of innovation, integrity, collaboration, and excellence, we're committed to delivering solutions that meet the evolving needs of schools educators and parents . Our team of experienced professionals in educational technology is dedicated to creating a seamless experience for both administrators and learners. Our platform is designed to empower educators, students, and institutions alike. With innovative features, intuitive interfaces, and seamless integrations, this revolutionary platform is poised to transform the way you learn, teach, and succeed. Experience the future of education today.
+          </p>  */} 
           {/* <div className="buttonContainer">
           <button className="ctaButton">Explore More</button>
           
-          <button className="ctaButton">Get Started</button>
-        </div> */}
-        </div>
+          <button className="ctaButton">Get Started</button>*/}
+        {/* </div>  */}
+         {/* </div> */}
 
 
-        <div className="imageContainer">
+        {/* <div className="imageContainer">
           <img
             src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_PWxhQxNJ.webp"
             alt="School Management"
             className="image"
           />
         </div>
-      </section>
+      </section>  */}
 
       <section className="sectionWithImage">
         {/* <div className="contentContainer">
           <h2>EEC Vision:</h2>
         
         </div> */}
-        <div className="contentContainer">
+        {/* <div className="contentContainer">
           
           <p>
           Transforming Education through Innovation At EEC Educare, we&#39;re dedicated to revolutionizing the educational landscape with our cutting-edge ERP and LMS solutions. Founded in 2020, our mission is to enhance education by providing effective management systems that support personalized learning for every student. Guided by our core values of innovation, integrity, collaboration, and excellence, we&#39;re committed to delivering solutions that meet the evolving needs of schools educators and parents . Our team of experienced professionals in educational technology is dedicated to creating a seamless experience for both administrators and learners. Our platform is designed to empower educators, students, and institutions alike. With innovative features, intuitive interfaces, and seamless integrations, this revolutionary platform is poised to transform the way you learn, teach, and succeed. Experience the future of education today.
           </p>
-        </div>
+        </div> */}
        
       </section>
 
@@ -247,7 +253,7 @@ students attendance:</p>
         </div>
       </section>
      
-
+      {/* <ImageCarousel /> */}
       <section className="sectionWithImage">
       <div className="contentContainer">
           <h2>Understanding How EEC Educare Transforms Education</h2>
