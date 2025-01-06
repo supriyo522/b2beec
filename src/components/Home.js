@@ -172,7 +172,7 @@ students attendance:</p>
           <h2>Unlock the Full Potential of Your Institution with Our ERP</h2>
           
         </div>
-        <div className="contentContainer">
+        <div className="contentContainerhome">
          
           <p>
         Our ERP system offers a range of benefits, including:

@@ -95,6 +95,16 @@ p {
   text-align: left;
 }
 
+.contentContainerhome {
+  flex: 1;
+  text-align: left;
+  
+}
+.contentContainerhome p {
+ font-weight: bold;
+  
+}
+
 /* Offerings Section */
 .section {
   padding: 2rem 1rem;
@@ -107,6 +117,7 @@ p {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 
 .card {
   border: 1px solid #ccc;
