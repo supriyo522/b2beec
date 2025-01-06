@@ -3,6 +3,10 @@ import React from "react";
 // import Testimonials from "./Testimonials";
 import Content from "./Content";
 // import ImageCarousel from "./ImageCarousel";
+import eec1 from "./Image/eec1.jpg"
+import eec2 from "./Image/eec2.jpg"
+import eec3 from "./Image/eec3.png"
+import eec6 from "./Image/eec6.png"
 import "./Home.css";
 
 const Home = () => {
@@ -194,14 +198,14 @@ students attendance:</p>
           <div className="card">
           <div className="imageWrapper">
           <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pelqsfDR.webp"
+            src={eec6}
             alt="School Management"
             className="image"
           />
           </div>
           <div className="contentWrapper">
-            <h3>Streamlined School Administration</h3>
-            <p>EEC Educare integrates attendance, fees, and report tracking into one platform, simplifying administrative tasks and saving time for educators..</p>
+            <h3>Hyper-Personalized Learning:</h3>
+            <p>AI-driven lessons adapt to every student's strengths, pace, and goals, ensuring a tailored learning experience.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             </div>
             </div>
@@ -209,28 +213,28 @@ students attendance:</p>
           <div className="card">
           <div className="imageWrapper">
           <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp"
+            src={eec1}
             alt="School Management"
             className="image"
           />
           </div>
           <div className="contentWrapper">
-            <h3>Enhanced Student Learning Tools</h3>
-            <p>Through interactive lessons and progress monitoring, EEC Educare personalizes the learning experience, helping students achieve.</p>
+            <h3> Instant Progress Tracking: </h3>
+            <p> Real-time insights enable  to identify challenges and address them immediately, maximizing student progress.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
           <div className="card">
           <div className="imageWrapper">
           <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp"
+            src={eec2}
             alt="School Management"
             className="image"
           />
           </div>
           <div className="contentWrapper">
-            <h3>Effective Parental Engagement</h3>
-            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
+            <h3>Empowered Educators:</h3>
+            <p>Cutting-edge tools and actionable data empower teachers to revolutionize classroom outcomes and actionable data enables schools to track overall performance.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             
           </div>
@@ -238,14 +242,14 @@ students attendance:</p>
           <div className="card">
           <div className="imageWrapper">
           <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp"
+            src={eec3}
             alt="School Management"
             className="image"
           />
           </div>
           <div className="contentWrapper">
-            <h3>Effective Parental Engagement</h3>
-            <p>With built-in parental controls and communication tools, EEC Educare fosters collaboration between parents and educators,student success.</p>
+            <h3>Next-Generation Collaboration:</h3>
+            <p>Seamless AI integration unites schools,teachers,and a new era of collaboration and student achievement.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             
           </div>

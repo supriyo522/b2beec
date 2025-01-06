@@ -14,7 +14,7 @@
   }
   
   .commitment-content h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px;
     color: #000;
   }
@@ -25,36 +25,13 @@
     margin-bottom: 20px;
   }
   
-  .commitment-stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .stat {
-    flex: 1;
-    min-width: 200px;
-  }
-  
-  .stat h2 {
-    font-size: 1.5rem;
-    color: #000;
-    margin-bottom: 10px;
-  }
-  
-  .stat p {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    color: #555;
-  }
-  
   .commitment-image {
     flex: 1;
   }
   
   .commitment-image img {
-    max-width: 100%;
-    height: auto;
+    width: 90%;
+    height: 80%;
     border-radius: 8px;
   }
   
