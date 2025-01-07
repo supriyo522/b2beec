@@ -13,8 +13,8 @@ const Footer = () => {
           <hr/>
           <p>
             <i className="fas fa-envelope"></i> {" "}
-            <a href="mailto:www.electroniceducare.com  ">
-            www.electroniceducare.com  
+            <a href="mailto: eec@electroniceducare.com">
+            eec@electroniceducare.com  
             </a>
           </p>
           <hr/>
