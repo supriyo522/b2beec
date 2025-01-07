@@ -7,7 +7,7 @@ import eec1 from "./Image/eec1.jpg"
 import eec2 from "./Image/eec2.jpg"
 import eec3 from "./Image/eec3.png"
 import eec6 from "./Image/eec6.png"
-import eec7 from "./Image/eec7.jpeg"
+import eec8 from "./Image/eec8.png"
 import Animation from "./WelcomeAnimation";
 
 import "./Home.css";
@@ -71,7 +71,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
 
       <section className="hero">
       <img
-            src={eec7}
+            src={eec8}
             alt="School Management"
             className="image"/>
       </section>
