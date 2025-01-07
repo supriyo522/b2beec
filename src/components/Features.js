@@ -4,13 +4,13 @@ const Features = () => (
   <div>
     <section className="sectionWithImage">
       <div className="contentContainer">
-          <h2>Explore the Key Features of EEC Educare</h2>
+          <h2>Explore the Key Features of EEC</h2>
           
         </div>
         <div className="contentContainer">
          
           <p>
-          EEC Educare offers a comprehensive suite of tools designed to streamline school management and enhance student learning. From efficient attendance tracking to interactive lessons and progress monitoring, our platform ensures a seamless educational experience. Discover how our features can transform your school’s administration and personalize student learning journeys. </p>
+          EEC offers a comprehensive suite of tools designed to streamline school management and enhance student learning. From efficient attendance tracking to interactive lessons and progress monitoring, our platform ensures a seamless educational experience. Discover how our features can transform your school’s administration and personalize student learning journeys. </p>
           
         </div>
       </section>
@@ -41,7 +41,7 @@ const Features = () => (
           </div>
           <div className="contentWrapper">
             <h3>Interactive Learning Tools</h3>
-            <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective and also advance</p>
+            <p>EEC provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective and also advance</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
@@ -70,7 +70,7 @@ const Features = () => (
         <div className="contentContainer">
          
           <p>
-          EEC Educare offers a comprehensive suite of tools designed to enhance the educational experience. From precise attendance tracking to engaging interactive lessons, our platform ensures seamless administration and personalized learning. Discover how our features can transform your educational environment and support both educators and students in achieving their goals.
+          EEC offers a comprehensive suite of tools designed to enhance the educational experience. From precise attendance tracking to engaging interactive lessons, our platform ensures seamless administration and personalized learning. Discover how our features can transform your educational environment and support both educators and students in achieving their goals.
           </p>
           
         </div>

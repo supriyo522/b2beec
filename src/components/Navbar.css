@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
-  background-color: #b0bfed45;
+  background-color: #b0bfedd7;
   color: #000;
   border-bottom: 1px solid #ccc;
   position: relative;
@@ -12,6 +12,7 @@
 .logo {
     height: 80px; /* Adjust the height as needed */
     object-fit:contain;
+    border-radius: 8px;
   }
   
 

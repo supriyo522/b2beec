@@ -13,8 +13,8 @@ const Footer = () => {
           <hr/>
           <p>
             <i className="fas fa-envelope"></i> {" "}
-            <a href="mailto:electroniceducaresales@yarrowtech.co.in">
-              electroniceducaresales@yarrowtech.co.in
+            <a href="mailto:www.electroniceducare.com  ">
+            www.electroniceducare.com  
             </a>
           </p>
           <hr/>
@@ -30,13 +30,13 @@ const Footer = () => {
           <hr/>
           <h3>Follow Us</h3>
           <div className="socialLinks">
-            <a
+            {/* <a
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-facebook"></i>
-            </a>
+            </a> */}
             <a
               href="https://www.instagram.com/its_eec_?igsh=djllcXR4dW16NWty"
               target="_blank"

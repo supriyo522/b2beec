@@ -6,6 +6,7 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 20px;
+    background-color: #f4f4f4;
   }
   
   .commitment-content {
@@ -16,7 +17,7 @@
   .commitment-content h1 {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: #000;
+    color: #0047AB;
   }
   
   .commitment-content p {

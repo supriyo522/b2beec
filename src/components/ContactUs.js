@@ -4,13 +4,13 @@ const ContactUs = () => (
   <div className="contact">
    <section className="sectionWithImage">
       <div className="contentContainer">
-          <h2>Unlock Efficiency with EEC Educare for Schools</h2>
+          <h2>Unlock Efficiency with EEC for Schools</h2>
           
         </div>
         <div className="contentContainer">
          
           <p>
-          EEC Educare reimagines school ERP with a transformative platform designed to simplify
+          EEC reimagines school ERP with a transformative platform designed to simplify
 operations and maximize efficiency. By streamlining administrative tasks, EEC Educare frees
 up valuable time, empowering educators to focus on what matters most—inspiring and
 educating.
@@ -28,7 +28,7 @@ educating.
             className="image"
           />
             <h3>Streamlined School Management</h3>
-            <p>EEC Educare simplifies administrative processes, enabling schools to manage attendance, fees, and reports efficiently. This allows educators to dedicate more time to teaching and less to paperwork.</p>
+            <p>EEC simplifies administrative processes, enabling schools to manage attendance, fees, and reports efficiently. This allows educators to dedicate more time to teaching and less to paperwork.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
@@ -48,7 +48,7 @@ educating.
             className="image"
           />
             <h3>Enhanced Collaboration</h3>
-            <p>EEC Educare promotes a collaborative environment among educators by offering a comprehensive suite of tools that enable them to effectively track student progress, share valuable insights, and exchange innovative teaching strategies.</p>
+            <p>EEC promotes a collaborative environment among educators by offering a comprehensive suite of tools that enable them to effectively track student progress, share valuable insights, and exchange innovative teaching strategies.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
         </div>
@@ -56,7 +56,7 @@ educating.
 
       <section className="sectionWithImage">
       <div className="contentContainer">
-          <h2>Explore the Key Features of EEC Educare</h2>
+          <h2>Explore the Key Features of EEC </h2>
           
         </div>
         <div className="contentContainer">
@@ -91,7 +91,7 @@ optimized experience.
             className="image"
           />
             <h3>Interactive Learning Tools</h3>
-            <p>EEC Educare provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective.</p>
+            <p>EEC provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           <div className="card">
