@@ -3,8 +3,9 @@
     color: #0fd395ee;
     margin:auto;
     font-size: 3rem;
-    font-family: "Times New Roman", Times, serif;
+    font-family: Manrope;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
     /* background-color: #4caf50; */
   }
   .welcome-heading:hover{
