@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import eeclogo from "./Image/eeclogo.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,7 +12,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">EEC</h1>
+     <Link to="/">
+     <img src={eeclogo} alt="EEC Logo" className="logo" />
+      </Link>
       <button className="hamburger" onClick={toggleMenu}>
         ☰
       </button>

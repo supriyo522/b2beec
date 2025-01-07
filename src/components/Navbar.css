@@ -10,10 +10,10 @@
 }
 
 .logo {
-  color: rgb(231, 213, 15);
-  font-size: 2rem;
-  font-weight: bold;
-}
+    height: 80px; /* Adjust the height as needed */
+    object-fit:contain;
+  }
+  
 
 .navLinks {
   list-style: none;

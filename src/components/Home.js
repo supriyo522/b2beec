@@ -7,12 +7,19 @@ import eec1 from "./Image/eec1.jpg"
 import eec2 from "./Image/eec2.jpg"
 import eec3 from "./Image/eec3.png"
 import eec6 from "./Image/eec6.png"
+import Animation from "./WelcomeAnimation";
+
 import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-    <h1>Welcome to EEC </h1>
+  
+  {/* <div style={{ backgroundColor: '#f4f4f4', padding: '20px', marginBottom: '20px'}}>
+        <h1>Welcome to EEC</h1>
+        
+      </div> */}
+     <Animation/>
     
       {/* Offerings Sections */}
       <Content/>
@@ -97,7 +104,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
   <div className="contentWrapper">
     <h3>The Smart track attendance</h3>
     <p>School Management and Parents to stay connected, stay informed. Our attendance tracking system
-keeps both management and parents in the loop, ensuring everyone is always up-to-date on the
+keeps both management and parents in the loop,everyone is always up-to-date on
 students attendance:</p>
     {/* <button className="ctaButton">Explore More</button> */}
     <ul className="featuresList">
@@ -118,7 +125,7 @@ students attendance:</p>
           </div>
           <div className="contentWrapper">
             <h3>Elevate Learning with Enhanced Educating</h3>
-            <p>Transform the way you teach and learn with our innovative solutions. Enhanced educating enables:</p>
+            <p>Transform the way you teach and learn with our innovative solutions. Enhanced educating enables a dynamic, engaging, and impactful learning experience</p>
             {/* <button className="ctaButton">Explore More</button> */}
             <ul className="featuresList">
           <li>Personalized educating experiences tailored to individual needs.</li>
@@ -138,7 +145,7 @@ students attendance:</p>
           </div>
           <div className="contentWrapper">
             <h3>Unlock Insights with Comprehensive Reports</h3>
-            <p>Make informed decisions with our detailed and customizable reports. Our comprehensive reporting system provides:</p>
+            <p>Make informed decisions with our detailed and customizable report.Our reporting system provides actionable  identify trends, and achieve your goals</p>
             {/* <button className="ctaButton">Explore More</button> */}
             <ul className="featuresList">
           <li>Financial and administrative insights.</li>
@@ -158,13 +165,13 @@ students attendance:</p>
   </div>
   <div className="contentWrapper">
     <h3>Streamline Management with Ease</h3>
-    <p>Our master access feature provides a high-quality education with Simplify management tasks, reduce administrative burdens:</p>
+    <p>Our Master Access feature provides a high-quality education experience while streamlining operations,management tasks, and reducing administrative burdens. Designed to empower educators</p>
     {/* <button className="ctaButton">Explore More</button> */}
     <ul className="featuresList">
           <li>Centralized report over all functionalities.</li>
-          <li>Ability to manage user roles, permissions, and access levels.</li>
+          <li>Ability to manage user roles</li>
           <li>Control over data management.</li>
-          <li>Customizable dashboards for personalized insights and oversight.</li>
+          <li>Customizable dashboards for personalized insights</li>
         </ul>
   </div>
 </div>
@@ -205,7 +212,7 @@ students attendance:</p>
           </div>
           <div className="contentWrapper">
             <h3>Hyper-Personalized Learning:</h3>
-            <p>AI-driven lessons adapt to every student's strengths, pace, and goals, ensuring a tailored learning experience.</p>
+            <p>AI-driven lessons are revolutionizing education by creating learning experience tailored to individual needs.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             </div>
             </div>
@@ -234,7 +241,7 @@ students attendance:</p>
           </div>
           <div className="contentWrapper">
             <h3>Empowered Educators:</h3>
-            <p>Cutting-edge tools and actionable data empower teachers to revolutionize classroom outcomes and actionable data enables schools to track overall performance.</p>
+            <p>Cutting-edge tools and actionable data empower teachers to transform classroom outcomes while enable to monitoring performance effectively.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             
           </div>

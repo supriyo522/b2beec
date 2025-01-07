@@ -1,0 +1,10 @@
+.welcome-heading {
+    text-align: center;
+    color: #d3bd0fee;
+    margin:auto;
+    font-size: 3rem;
+    font-family: "Arial", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* background-color: #4caf50; */
+  }
+  
