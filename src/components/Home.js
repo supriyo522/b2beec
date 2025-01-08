@@ -266,7 +266,7 @@ students attendance:</p>
       </section>
      
       {/* <ImageCarousel /> */}
-      <section className="sectionWithImage">
+    {/*  <section className="sectionWithImage">
       <div className="contentContainer">
           <h2>Understanding How EEC Educare Transforms Education</h2>
           
@@ -278,7 +278,7 @@ students attendance:</p>
          </p>
           
         </div>
-      </section>
+      </section>*/}
 
       {/* <section className="sectionWithImage">
         <div className="contentContainer">
