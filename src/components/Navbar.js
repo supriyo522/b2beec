@@ -42,7 +42,7 @@ const Navbar = () => {
 
         <li>
           <Link to="/contact" onClick={() => setMenuOpen(false)}>
-          <button className="learnMoreBtn">Contact</button>
+          <button className="learnMoreBtn">Enquiry</button>
           </Link>
         </li>
       </ul>

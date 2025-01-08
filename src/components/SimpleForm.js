@@ -1,12 +1,14 @@
-import React, { useState } from "react";
-import "./SimpleForm.css"; // Import the CSS file
+import React, { useState } from 'react';
+import './SimpleForm.css'; // Import the CSS file
 
 const SimpleForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    pocName: "",
-    institutionName: "",
-    address: "",
+    name: '',
+    // pocName: '',
+    phoneNumber: '',
+    email: '',
+    institutionName: '',
+    address: '',
   });
 
   const handleChange = (e) => {
@@ -19,16 +21,16 @@ const SimpleForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
-    alert("Form Submitted Successfully!");
+    console.log('Form Submitted:', formData);
+    alert('Form Submitted Successfully!');
   };
 
   return (
     <div className="form-container">
-      <h2>Simple Form</h2>
+      <h2>Enquiry Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
@@ -39,7 +41,7 @@ const SimpleForm = () => {
           />
         </div>
 
-        <div className="form-group">
+        {/* <div className="form-group">
           <label htmlFor="pocName">POC Name</label>
           <input
             type="text"
@@ -49,10 +51,34 @@ const SimpleForm = () => {
             onChange={handleChange}
             placeholder="Enter POC name"
           />
+        </div> */}
+
+        <div className="form-group">
+          <label htmlFor="phoneNumber">Phone Number:</label>
+          <input
+            type="tel"
+            id="phoneNumber"
+            name="phoneNumber"
+            value={formData.phoneNumber}
+            onChange={handleChange}
+            placeholder="Enter phone number"
+          />
         </div>
 
         <div className="form-group">
-          <label htmlFor="institutionName">Institution Name</label>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Enter email address"
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="institutionName">Institution Name:</label>
           <input
             type="text"
             id="institutionName"
@@ -63,8 +89,10 @@ const SimpleForm = () => {
           />
         </div>
 
+       
+
         <div className="form-group">
-          <label htmlFor="address">Address</label>
+          <label htmlFor="address">Institution Address:</label>
           <textarea
             id="address"
             name="address"
@@ -74,9 +102,7 @@ const SimpleForm = () => {
           />
         </div>
 
-        <button type="submit" className="submit-button">
-          Submit
-        </button>
+        <button type="submit" className="submit-button">Submit</button>
       </form>
     </div>
   );
