@@ -7,12 +7,14 @@ import AboutUs from "./components/AboutUs";
 import Features from "./components/Features";
 import Benefits from "./components/ContactUs";
 import ContactUs from "./components/SimpleForm.js";
+import Gallery from "./components/Gallery.js"
 import Footer from "./components/Footer";
-
+import CustomCursor from "./components/CustomCursor";
 const App = () => (
   <Router>
     <Navbar />
-    <div style={{ padding: "1rem" }}>
+    <CustomCursor />
+    {/* <div style={{ padding: "" }}> */}
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/courses" element={<Courses />} /> */}
@@ -20,8 +22,9 @@ const App = () => (
         <Route path="/features" element={<Features />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/Gallery" element={<Gallery />}/>
       </Routes>
-    </div>
+    {/* </div> */}
     <Footer /> 
   </Router>
 );

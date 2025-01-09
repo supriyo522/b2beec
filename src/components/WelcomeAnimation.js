@@ -12,9 +12,9 @@ const WelcomeAnimation = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         style={{
-          backgroundColor: "#ADD8E6",
+          backgroundColor: "#b1e7d9",
           padding: "20px",
-          marginBottom: "20px"
+          // marginBottom: "30px"
         }}
       >
         Welcome to EEC

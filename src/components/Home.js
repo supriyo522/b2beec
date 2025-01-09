@@ -104,7 +104,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
   </div>
   <div className="contentWrapper">
     <h3>The Smart track attendance</h3>
-    <p>School Management and Parents to stay connected, stay informed. Our attendance tracking system
+    <p>School Management and Parents to stay connected, & informed. Our attendance tracking system
 keeps both management and parents in the loop,everyone is always up-to-date on
 students attendance:</p>
     {/* <button className="ctaButton">Explore More</button> */}
@@ -131,7 +131,7 @@ students attendance:</p>
             <ul className="featuresList">
           <li>Personalized educating experiences tailored to individual needs.</li>
           <li>Time Table management.</li>
-          <li>Real-time assessment and report card generation.</li>
+          <li>Real-time assessment and holistic report card generation.</li>
           <li>Collaboration tools to foster communication and teamwork.</li>
         </ul>
           </div>
@@ -146,7 +146,7 @@ students attendance:</p>
           </div>
           <div className="contentWrapper">
             <h3>Unlock Insights with Comprehensive Reports</h3>
-            <p>Make informed decisions with our detailed and customizable report.Our reporting system provides actionable  identify trends, and achieve your goals</p>
+            <p>Make informed decisions with our detailed and customizable reports.Our reporting system provides actionable  identify trends, and achieve your goals.</p>
             {/* <button className="ctaButton">Explore More</button> */}
             <ul className="featuresList">
           <li>Financial and administrative insights.</li>

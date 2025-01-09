@@ -3,10 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
-  background-color: #b0bfedd7;
+  background-color: #1b242b;
   color: #000;
   border-bottom: 1px solid #ccc;
   position: relative;
+
 }
 
 .logo {
@@ -40,8 +41,8 @@
 
 .learnMoreBtn,
 .getStartedBtn {
-  background-color: #0047AB;
-  border: 2px solid #0047AB;
+  background-color: #374151;
+  border: 2px solid #f7f550;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -52,8 +53,8 @@
 
 .learnMoreBtn:hover,
 .getStartedBtn:hover {
-  background-color: #003366;
-  border-color: #003366;
+  background-color: #f7f550;
+  color: #374151;
 }
 
 /* Hamburger Button */

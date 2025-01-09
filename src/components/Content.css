@@ -4,7 +4,7 @@
 .contentimg {
     width: 100%;
     max-width: 1200px;
-    margin: 10px ;
+    /* margin: 20px ; */
     padding: 20px;
     /* box-sizing: border-box; */
     background-color: #f9f9f9;
@@ -35,7 +35,7 @@
     margin-bottom: 10px;
     margin-left:10px;
     width: 600px;
-    height:450px;
+    height:500px;
     border-radius: 8px;
   }
   
