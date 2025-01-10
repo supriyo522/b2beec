@@ -5,9 +5,9 @@ import Content from "./Content";
 // import ImageCarousel from "./ImageCarousel";
 import eec1 from "./Image/eec1.jpg"
 import eec2 from "./Image/eec2.jpg"
-import eec3 from "./Image/eec3.png"
+import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
-import eec8 from "./Image/eec8.png"
+import eec10 from "./Image/eec10.jpeg"
 import Animation from "./WelcomeAnimation";
 
 import "./Home.css";
@@ -71,7 +71,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
 
       <section className="hero">
       <img
-            src={eec8}
+            src={eec10}
             alt="School Management"
             className="image"/>
       </section>
@@ -250,7 +250,7 @@ students attendance:</p>
           <div className="card">
           <div className="imageWrapper">
           <img
-            src={eec3}
+            src={eec9}
             alt="School Management"
             className="image"
           />
