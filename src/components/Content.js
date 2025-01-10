@@ -3,7 +3,7 @@ import "./Content.css"; // Assuming your CSS file is named App.css
 
 const ContentImage = () => {
   return (
-    <div className="contentimg">
+    <div className="contentimg" >
       <h2>Innovation Meets Efficiency:</h2>
 
       <p>

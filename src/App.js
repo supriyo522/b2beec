@@ -27,6 +27,7 @@ const App = () => (
     {/* </div> */}
     <Footer /> 
   </Router>
+  
 );
 
 export default App;

@@ -48,6 +48,7 @@ p {
 
 /* Hero Section */
 .hero {
+  width: 100%;
   text-align: center;
   padding: 3rem 1rem;
   background-color: #f4f4f4;

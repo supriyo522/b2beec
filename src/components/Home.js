@@ -77,8 +77,8 @@ improvement. Join us in revolutionizing education.Transforming Education through
       </section>
 
 
-      <section className="sectionWithImage">
-      <div className="contentContainer">
+      <section className="sectionWithImage" >
+      <div className="contentContainer" >
           <h2>Explore Our Comprehensive Features</h2>
           
         </div>
@@ -179,7 +179,7 @@ students attendance:</p>
         </div>
       </section>
      
-      <section className="sectionWithImage">
+      <section className="sectionWithImage" >
       <div className="contentContainer">
           <h2>Unlock the Full Potential of Your Institution with Our ERP</h2>
           

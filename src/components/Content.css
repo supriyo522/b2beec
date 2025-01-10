@@ -3,7 +3,7 @@
 /* Container for the content */
 .contentimg {
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     /* margin: 20px ; */
     padding: 20px;
     /* box-sizing: border-box; */
