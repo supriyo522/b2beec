@@ -27,6 +27,7 @@ const Footer = () => {
               <a href="/terms-of-service">Terms of Service</a>
             </li>
           </ul>
+          
           <hr/>
           <h3>Follow Us</h3>
           <div className="socialLinks">
