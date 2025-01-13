@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 const UpDownAnimation = () => {
   const images = [
     "https://10web-site.ai/210/wp-content/uploads/sites/242/2024/12/tenweb_media_PWxhQxNJ.webp",
@@ -53,6 +54,7 @@ const UpDownAnimation = () => {
           />
         </motion.div>
       ))}
+      
     </div>
   );
 };

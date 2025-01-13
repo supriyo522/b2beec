@@ -142,6 +142,7 @@ p {
   text-align: center;
 }
 
+
 .card .image {
   width: 100%;
   display: block;
@@ -163,6 +164,7 @@ p {
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
+
 .featuresList {
   text-align: left; /* Align text to the left */
   padding: 0;

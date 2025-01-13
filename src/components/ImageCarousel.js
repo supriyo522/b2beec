@@ -13,6 +13,9 @@ const ImageCarousel = () => {
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp",
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
   ];
 
   // State to track the current image group index (group of 3 images)

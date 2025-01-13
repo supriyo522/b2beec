@@ -2,7 +2,7 @@ import React from "react";
 // import Contact from "./ContactUs";
 // import Testimonials from "./Testimonials";
 import Content from "./Content";
-// import ImageCarousel from "./ImageCarousel";
+import ImageCarousel from "./ImageCarousel";
 import eec1 from "./Image/eec1.jpg"
 import eec2 from "./Image/eec2.jpg"
 import eec9 from "./Image/eec9.jpeg"
@@ -404,6 +404,7 @@ students attendance:</p>
         <p>Have questions? We’re here to help!</p>
         <button className="ctaButton">Get in Touch</button>
       </section> */}
+      <ImageCarousel/>
      
     </div>
   );
