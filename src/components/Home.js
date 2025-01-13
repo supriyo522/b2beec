@@ -85,7 +85,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
         <div className="contentContainer">
          
           <p>
-          EEC Educare offers a robust suite of tools designed to streamline school management and enhance student learning. From attendance tracking to interactive lessons, our platform provides everything educators need to create a seamless educational experience. Discover how our features can transform your school’s operations.
+          EEC offers a robust suite of tools designed to streamline school management and enhance student learning. From attendance tracking to interactive lessons, our platform provides everything educators need to create a seamless educational experience. Discover how our features can transform your school’s operations.
           </p>
           
         </div>
