@@ -52,11 +52,11 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link to="/Testimonial" onClick={() => setMenuOpen(false)}>
           <button className="learnMoreBtn">Testimonial</button>
           </Link>
-        </li>
+        </li> */}
       </ul>
       {/* <div className="navButtons">
         <button className="learnMoreBtn">Learn More</button>

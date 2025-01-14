@@ -8,7 +8,7 @@ import Features from "./components/Features";
 import Benefits from "./components/ContactUs";
 import ContactUs from "./components/SimpleForm.js";
 import Gallery from "./components/Gallery.js";
-import Testimonial from "./components/Testimonials.js"
+// import Testimonial from "./components/Testimonials.js"
 import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
 const App = () => (
@@ -24,7 +24,7 @@ const App = () => (
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/Gallery" element={<Gallery />}/>
-        <Route path="/Testimonial" element={<Testimonial />}/>
+        {/* <Route path="/Testimonial" element={<Testimonial />}/> */}
 
       </Routes>
     {/* </div> */}

@@ -5,16 +5,24 @@ const ImageCarousel = () => {
   // Array of images to display
   const images = [
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_pelqsfDR.webp",
+    
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
-    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
+    
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_6HBSubnT.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_6HBSubnT.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_6HBSubnT.webp",
+    
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_mkiRt4Va.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_mkiRt4Va.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_mkiRt4Va.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_mkiRt4Va.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_6HBSubnT.webp",
+    "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_TFVfkNGM.webp",
     "https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_N85x6lWJ.webp",
   ];
 

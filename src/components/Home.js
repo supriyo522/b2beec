@@ -159,7 +159,7 @@ students attendance:</p>
           <div className="card">
   <div className="imageWrapper">
     <img
-      src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_j5tmzR8F.webp"
+      src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_FOvEtQuq.webp"
       alt="School Management"
       className="image"
     />
