@@ -1,33 +1,33 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import eec11 from "./Image/eec11.JPG";
-import eec12 from "./Image/eec12.JPG";
-import eec18 from "./Image/eec18.JPG";
-import eec15 from "./Image/eec15.JPG";
-import eec16 from "./Image/eec16.JPG";
-import eec17 from "./Image/eec17.JPG";
-import eec25 from "./Image/eec25.JPG";
-import eec26 from "./Image/eec26.JPG";
-import eec30 from "./Image/eec30.JPG";
-import eec31 from "./Image/eec31.JPG";
-import eec20 from "./Image/eec20.JPG";
-import eec24 from "./Image/eec24.JPG";
+import eec44 from "./Image/eec44.jpeg";
+import eec33 from "./Image/eec33.jpeg";
+import eec34 from "./Image/eec34.jpeg";
+import eec35 from "./Image/eec35.jpeg";
+import eec36 from "./Image/eec36.jpeg";
+import eec37 from "./Image/eec37.jpeg";
+import eec38 from "./Image/eec38.jpeg";
+import eec39 from "./Image/eec39.jpeg";
+import eec40 from "./Image/eec40.jpeg";
+import eec41 from "./Image/eec41.jpeg";
+import eec42 from "./Image/eec42.jpeg";
+import eec43 from "./Image/eec43.jpeg";
 
 const UpDownAnimation = () => {
   const images = [
-    eec11,
-    eec12,
-    eec18,
-    eec15,
-    eec16,
-    eec17,
-    eec25,
-    eec26,
-    eec30,
-    eec31,
-    eec20,
-    eec24,
+    eec44,
+    eec33,
+    eec34,
+    eec35,
+    eec36,
+    eec37,
+    eec38,
+    eec39,
+    eec40,
+    eec41,
+    eec42,
+    eec43,
   ];
 
   const [visibleIndices, setVisibleIndices] = useState([]);
