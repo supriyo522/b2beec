@@ -1,4 +1,4 @@
-import React from "react";
+import React,{ useEffect, useState } from "react";
 // import Contact from "./ContactUs";
 // import Testimonials from "./Testimonials";
 import Content from "./Content";
@@ -9,18 +9,49 @@ import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
 import eec10 from "./Image/eec10.jpeg"
 import Animation from "./WelcomeAnimation";
+// import Automate from "./Automate";
 
 import "./Home.css";
+
+// const ScrollProgress = () => {
+//   const [scrollPercent, setScrollPercent] = useState(0);
+
+//   const handleScroll = () => {
+//     const scrollTop = document.documentElement.scrollTop;
+//     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//     const scrolled = (scrollTop / scrollHeight) * 100;
+//     setScrollPercent(scrolled);
+//   };
+
+//   useEffect(() => {
+//     window.addEventListener("scroll", handleScroll);
+//     return () => {
+//       window.removeEventListener("scroll", handleScroll);
+//     };
+//   }, []);
 
 const Home = () => {
   return (
     <div>
-  
+     {/* <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: `${scrollPercent}%`,
+          height: "5px",
+          backgroundColor: "#f7f550",
+          zIndex: 1000,
+          transition: "width 0.25s ease",
+        }}
+      ></div> */}
   {/* <div style={{ backgroundColor: '#f4f4f4', padding: '20px', marginBottom: '20px'}}>
         <h1>Welcome to EEC</h1>
         
       </div> */}
      <Animation/>
+
+      {/* <Automate/> */}
     
       {/* Offerings Sections */}
       <Content/>
@@ -409,5 +440,6 @@ students attendance:</p>
     </div>
   );
 };
+
 
 export default Home;

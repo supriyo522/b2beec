@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import eeclogo from "./Image/eeclogo.jpg";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" aria-label="Breadcrumb">
      <Link to="/">
      <img src={eeclogo} alt="EEC Logo" className="logo" />
       </Link>
@@ -63,6 +64,7 @@ const Navbar = () => {
         <button className="getStartedBtn">Get Started</button>
       </div> */}
     </nav>
+ 
   );
 };
 
