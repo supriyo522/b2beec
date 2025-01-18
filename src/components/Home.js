@@ -9,9 +9,12 @@ import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
 import eec10 from "./Image/eec10.jpeg"
 import Animation from "./WelcomeAnimation";
-// import Automate from "./Automate";
+import Automate from "./Automate";
+import Imcontent from "./imcontent";
+import Fourdivs from "./Fourdivs";
 
 import "./Home.css";
+// import Fourdivs from "./Fourdivs";/
 
 // const ScrollProgress = () => {
 //   const [scrollPercent, setScrollPercent] = useState(0);
@@ -51,7 +54,7 @@ const Home = () => {
       </div> */}
      <Animation/>
 
-      {/* <Automate/> */}
+      <Automate/>
     
       {/* Offerings Sections */}
       <Content/>
@@ -85,7 +88,8 @@ improvement. Join us in revolutionizing education.Transforming Education through
           />
         </div>
       </section>  */}
-
+      
+      <Imcontent/>
       <section className="sectionWithImage">
         {/* <div className="contentContainer">
           <h2>EEC Vision:</h2>
@@ -99,14 +103,14 @@ improvement. Join us in revolutionizing education.Transforming Education through
         </div> */}
        
       </section>
-
+      
       <section className="hero">
       <img
             src={eec10}
             alt="School Management"
             className="image"/>
       </section>
-
+      <Fourdivs/>
 
       <section className="sectionWithImage" >
       <div className="contentContainer" >
