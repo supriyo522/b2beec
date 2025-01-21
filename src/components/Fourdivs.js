@@ -35,7 +35,7 @@ const Fourdivs = () => {
 
   return (
     <div className="features-container">
-      <h2>EEC Features</h2>
+      <h2>Why EEC?</h2>
       <p>
         &quot;EEC is designed to save time and reduce administrative burden for
         schools while offering students dynamic learning tools and helping

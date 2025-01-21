@@ -5,11 +5,12 @@
   }
   
   .features-container h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 10px;
   }
   
   .features-container p {
+    font-size: 1.5rem;
     color: #555;
     margin-bottom: 20px;
   }

@@ -1,14 +1,14 @@
 import React,{ useEffect, useState } from "react";
 // import Contact from "./ContactUs";
 // import Testimonials from "./Testimonials";
-import Content from "./Content";
+// import Content from "./Content";
 import ImageCarousel from "./ImageCarousel";
 import eec1 from "./Image/eec1.jpg"
 import eec2 from "./Image/eec2.jpg"
 import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
 import eec10 from "./Image/eec10.jpeg"
-import Animation from "./WelcomeAnimation";
+// import Animation from "./WelcomeAnimation";
 import Automate from "./Automate";
 import Imcontent from "./imcontent";
 import Fourdivs from "./Fourdivs";
@@ -52,12 +52,12 @@ const Home = () => {
         <h1>Welcome to EEC</h1>
         
       </div> */}
-     <Animation/>
+     {/* <Animation/> */}
 
       <Automate/>
     
       {/* Offerings Sections */}
-      <Content/>
+      {/* <Content/> */}
   
      
       
@@ -88,7 +88,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
           />
         </div>
       </section>  */}
-      
+      <Fourdivs/>
       <Imcontent/>
       <section className="sectionWithImage">
         {/* <div className="contentContainer">
@@ -104,15 +104,15 @@ improvement. Join us in revolutionizing education.Transforming Education through
        
       </section>
       
-      <section className="hero">
+      {/* <section className="hero">
       <img
             src={eec10}
             alt="School Management"
             className="image"/>
-      </section>
-      <Fourdivs/>
+      </section> */}
+      
 
-      <section className="sectionWithImage" >
+      {/* <section className="sectionWithImage" >
       <div className="contentContainer" >
           <h2>Explore Our Comprehensive Features</h2>
           
@@ -124,10 +124,10 @@ improvement. Join us in revolutionizing education.Transforming Education through
           </p>
           
         </div>
-      </section>
+      </section> */}
 
        {/* Our Offerings Section */}
-       <section className="section">
+       {/* <section className="section">
         <div className="cardContainer">
         <div className="card">
   <div className="imageWrapper">
@@ -142,7 +142,7 @@ improvement. Join us in revolutionizing education.Transforming Education through
     <p>School Management and Parents to stay connected, & informed. Our attendance tracking system
 keeps both management and parents in the loop,everyone is always up-to-date on
 students attendance:</p>
-    {/* <button className="ctaButton">Explore More</button> */}
+    
     <ul className="featuresList">
           <li>Real-time attendance updates.</li>
           <li>Automated notifications to parents.</li>
@@ -162,7 +162,7 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3>Elevate Learning with Enhanced Educating</h3>
             <p>Transform the way you teach and learn with our innovative solutions. Enhanced educating enables a dynamic, engaging, and impactful learning experience</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+            
             <ul className="featuresList">
           <li>Personalized educating experiences tailored to individual needs.</li>
           <li>Time Table management.</li>
@@ -182,7 +182,7 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3>Unlock Insights with Comprehensive Reports</h3>
             <p>Make informed decisions with our detailed and customizable reports.Our reporting system provides actionable  identify trends, and achieve your goals.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+            
             <ul className="featuresList">
           <li>Financial and administrative insights.</li>
           <li>In-depth analysis of fees collection and dues.</li>
@@ -202,7 +202,7 @@ students attendance:</p>
   <div className="contentWrapper">
     <h3>Streamline Management with Ease</h3>
     <p>Our Master Access feature provides a high-quality education experience while streamlining operations,management tasks, and reducing administrative burdens. Designed to empower educators</p>
-    {/* <button className="ctaButton">Explore More</button> */}
+
     <ul className="featuresList">
           <li>Centralized report over all functionalities.</li>
           <li>Ability to manage user roles</li>
@@ -212,9 +212,9 @@ students attendance:</p>
   </div>
 </div>
         </div>
-      </section>
+      </section> */}
      
-      <section className="sectionWithImage" >
+      {/* <section className="sectionWithImage" >
       <div className="contentContainer">
           <h2>Unlock the Full Potential of Your Institution with Our ERP</h2>
           
@@ -233,10 +233,10 @@ students attendance:</p>
         </ul>
           
         </div>
-      </section>
+      </section> */}
 
         {/* Our Offerings Section */}
-        <section className="section">
+        {/* <section className="section">
         <div className="cardContainer">
           <div className="card">
           <div className="imageWrapper">
@@ -249,7 +249,7 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3>Hyper-Personalized Learning:</h3>
             <p>AI-driven lessons are revolutionizing education by creating learning experience tailored to individual needs.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+          
             </div>
             </div>
           
@@ -264,7 +264,7 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3> Instant Progress Tracking: </h3>
             <p> Real-time insights enable  to identify challenges and address them immediately, maximizing student progress.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+           
           </div>
           </div>
           <div className="card">
@@ -278,7 +278,7 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3>Empowered Educators:</h3>
             <p>Cutting-edge tools and actionable data empower teachers to transform classroom outcomes while enable to monitoring performance effectively.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+          
             
           </div>
           </div>
@@ -293,13 +293,13 @@ students attendance:</p>
           <div className="contentWrapper">
             <h3>Next-Generation Collaboration:</h3>
             <p>Seamless AI integration unites schools,teachers,and a new era of collaboration and student achievement.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
+         
             
           </div>
           </div>
         </div>
       </section>
-     
+      */}
       {/* <ImageCarousel /> */}
     {/*  <section className="sectionWithImage">
       <div className="contentContainer">
@@ -439,7 +439,7 @@ students attendance:</p>
         <p>Have questions? We’re here to help!</p>
         <button className="ctaButton">Get in Touch</button>
       </section> */}
-      <ImageCarousel/>
+      {/* <ImageCarousel/> */}
      
     </div>
   );

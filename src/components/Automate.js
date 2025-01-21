@@ -4,33 +4,27 @@ import "./Automate.css";
 const Automate = () => {
   return (
     <div className="automate-section">
-      <div className="content-container">
+      <div className="content-container2">
         <h1>
-          EEC, <span>Anything & Everything</span>
+        Empowering Excellence, Everywhere
         </h1>
         <div className="rotating-text">
-          <span>50+ Intuitive Modules</span>
-          <span>Streamlined Automation</span>
-          <span>Seamless Integration</span>
-          <span>Effortless Management</span>
+          <span>LEARNING MANAGEMENT SYSTEM</span>
+          <span>REAL TIME VISIBILITY FOR PARENTS</span>
+          <span>AUTOMATED EXAM SOFTWARE</span>
+          <span>A FUTURISTIC AI DRIVEN LMS &amp; ERP SOLUTION</span>
+          <span>SMARTER LEARNING WITH ML INSIGHTS</span>
         </div>
         <p>
-        Innovation and efficiency converge, driving progress and productivity. In school management, this fusion enables educators to focus on teaching, while automating administrative tasks. Our School solution embodies this blend, simplifying management, enhancing engagement, and fostering improvement. Innovation At EEC Educare, we're dedicated to revolutionizing the educational landscape with our cutting-edge ERP along with LMS solutions.
+        EEC simplifies school management, enhances learning experiences, and
+fosters strong parent engagement. Our advanced ERP system takes care of
+administrative tasks like attendance, scheduling, and reporting, freeing up
+schools to focus on education. Students benefit from personalized tools and
+interactive resources, while parents stay informed and connected through real-
+time updates, progress tracking, and teacher communication.
         </p>
-        {/* <button className="cta-button">Start free Trial</button> */}
+      
       </div>
-      {/* <div className="graphic-container">
-        <img
-          src="your-image-path-left.png"
-          alt="Graphic Left"
-          className="left-graphic"
-        />
-        <img
-          src="your-image-path-right.png"
-          alt="Graphic Right"
-          className="right-graphic"
-        />
-      </div> */}
     </div>
   );
 };
