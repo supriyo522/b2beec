@@ -12,14 +12,14 @@ function imcontent() {
   return (
     <div className="content-container1">
       {/* Title Section */}
-      <h1>All-In-One ERP Solution</h1>
-      <p className="subtitle" style={{fontSize:"1.8rem"}}>
+      <h1 style={{color:"#d2df3d"}}>All-In-One ERP Solution</h1>
+      <p className="subtitle" style={{fontSize:"1.8rem",fontWeight:"bold"}}>
         A single bundle solution that includes all our modules for the best
         school automation.
       </p>
 
       {/* Main Section */}
-      <div className="main-content1">
+      <div className="main-content1" style={{gap: "200px"}}>
         {/* Left: Text Content */}
         <div className="text-content1">
           <h2>All-In-One School ERP</h2>
@@ -41,11 +41,16 @@ function imcontent() {
           <img
             src={eecnet} /* Replace with the actual image URL */
             alt="School ERP Modules"
+            style={{
+    width: "900px", // Adjust width as needed
+    height: "400px", // Maintain aspect ratio
+    // maxWidth: "350px"
+  }}
           />
         </div>
       </div>
       <hr />
-      <div className="main-content1">
+      <div className="main-content1" style={{gap: "100px"}}>
         {/* Left: Text Content */}
 
         <div className="image-content1">
@@ -74,7 +79,7 @@ function imcontent() {
         {/* Right: Image with Modules */}
       </div>
       <hr />
-      <div className="main-content1">
+      <div className="main-content1"  style={{gap: "100px"}}>
         {/* Left: Text Content */}
         <div className="text-content1">
           <h2>Revolutionizing Learning with EEC</h2>
@@ -103,7 +108,7 @@ function imcontent() {
         </div>
       </div>
       <hr />
-      <div className="main-content1">
+      <div className="main-content1"  style={{gap: "100px"}}>
         {/* Left: Text Content */}
 
         <div className="image-content1">
@@ -132,7 +137,7 @@ function imcontent() {
         {/* Right: Image with Modules */}
       </div>
       <hr />
-      <div className="main-content1">
+      <div className="main-content1"  style={{gap: "100px"}}>
         {/* Left: Text Content */}
         <div className="text-content1">
           <h2>Empowering Parents with Instant Communication and Updates</h2>
@@ -159,7 +164,7 @@ function imcontent() {
         </div>
       </div>
       <hr />
-      <div className="main-content1">
+      <div className="main-content1"  style={{gap: "100px"}}>
         {/* Left: Text Content */}
 
         <div className="image-content1">

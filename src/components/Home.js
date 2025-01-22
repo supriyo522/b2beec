@@ -16,27 +16,27 @@ import Fourdivs from "./Fourdivs";
 import "./Home.css";
 // import Fourdivs from "./Fourdivs";/
 
-// const ScrollProgress = () => {
-//   const [scrollPercent, setScrollPercent] = useState(0);
+const ScrollProgress = () => {
+  const [scrollPercent, setScrollPercent] = useState(0);
 
-//   const handleScroll = () => {
-//     const scrollTop = document.documentElement.scrollTop;
-//     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-//     const scrolled = (scrollTop / scrollHeight) * 100;
-//     setScrollPercent(scrolled);
-//   };
+  const handleScroll = () => {
+    const scrollTop = document.documentElement.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (scrollTop / scrollHeight) * 100;
+    setScrollPercent(scrolled);
+  };
 
-//   useEffect(() => {
-//     window.addEventListener("scroll", handleScroll);
-//     return () => {
-//       window.removeEventListener("scroll", handleScroll);
-//     };
-//   }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
-const Home = () => {
+// const Home = () => {
   return (
     <div>
-     {/* <div
+     <div
         style={{
           position: "fixed",
           top: 0,
@@ -47,7 +47,7 @@ const Home = () => {
           zIndex: 1000,
           transition: "width 0.25s ease",
         }}
-      ></div> */}
+      ></div>
   {/* <div style={{ backgroundColor: '#f4f4f4', padding: '20px', marginBottom: '20px'}}>
         <h1>Welcome to EEC</h1>
         
@@ -443,7 +443,8 @@ students attendance:</p>
      
     </div>
   );
+
 };
 
 
-export default Home;
+export default ScrollProgress;

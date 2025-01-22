@@ -27,7 +27,7 @@ const Features = () => (
           </div>
           <div className="contentWrapper">
             <h3>Efficient School Management</h3>
-            <p>Our platform simplifies administrative tasks with features like attendance and fee tracking, allowing educators to focus more on teaching and less on paperwork.</p>
+            <p>Our platform simplifies administrative tasks with features like attendance and fee tracking, allowing educators to focus more on teaching and less on paperwork.It offers tools for scheduling.</p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
@@ -41,7 +41,7 @@ const Features = () => (
           </div>
           <div className="contentWrapper">
             <h3>Interactive Learning Tools</h3>
-            <p>EEC provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective and also advance</p>
+            <p>EEC provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective, and also advance their critical thinking, problem-solving skills, and creativity. </p>
             {/* <button className="ctaButton">Explore More</button> */}
           </div>
           </div>
