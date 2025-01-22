@@ -102,7 +102,7 @@ function imcontent() {
         {/* Right: Image with Modules */}
         <div className="image-content1">
           <img
-            src={neweec} /* Replace with the actual image URL */
+            src={eecpaper} /* Replac3e with the actual image URL */
             alt="School ERP Modules"
           />
         </div>
@@ -113,7 +113,7 @@ function imcontent() {
 
         <div className="image-content1">
           <img
-            src={eecsocial} /* Replace with the actual image URL */
+            src={neweec} /* Replac4e with the actual image URL */
             alt="School ERP Modules"
           />
         </div>
@@ -158,7 +158,7 @@ function imcontent() {
         {/* Right: Image with Modules */}
         <div className="image-content1">
           <img
-            src={eectable} /* Replace with the actual image URL */
+            src={eectable} /* Replac5e with the actual image URL */
             alt="School ERP Modules"
           />
         </div>
@@ -169,7 +169,7 @@ function imcontent() {
 
         <div className="image-content1">
           <img
-            src={eecpaper} /* Replace with the actual image URL */
+            src={eecsocial} /* Replac6e with the actual image URL */
             alt="School ERP Modules"
           />
         </div>

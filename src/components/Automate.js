@@ -16,12 +16,7 @@ const Automate = () => {
           <span>SMARTER LEARNING WITH ML INSIGHTS</span>
         </div>
         <p>
-        EEC simplifies school management, enhances learning experiences, and
-fosters strong parent engagement. Our advanced ERP system takes care of
-administrative tasks like attendance, scheduling, and reporting, freeing up
-schools to focus on education. Students benefit from personalized tools and
-interactive resources, while parents stay informed and connected through real-
-time updates, progress tracking, and teacher communication.
+        EEC simplifies school management, enhances learning experiences, and fosters strong parent engagement. Our advanced ERP system takes care of administrative tasks like attendance, scheduling, and reporting, freeing up schools to focus on education. Students benefit from personalized tools and interactive resources, while parents stay informed and connected through real- time updates, progress tracking, and teacher communication.
         </p>
       
       </div>
