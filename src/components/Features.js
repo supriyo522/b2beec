@@ -1,116 +1,48 @@
 import React from "react";
+import "./Features.css";
 
-const Features = () => (
-  <div>
-    <section className="sectionWithImage">
-      <div className="contentContainer">
-          <h2>Explore the Key Features of EEC</h2>
-          
-        </div>
-        <div className="contentContainer">
-         
-          <p>
-          EEC offers a comprehensive suite of tools designed to streamline school management and enhance student learning. From efficient attendance tracking to interactive lessons and progress monitoring, our platform ensures a seamless educational experience. Discover how our features can transform your school’s administration and personalize student learning journeys. </p>
-          
-        </div>
-      </section>
+const Features = () => {
+  const gridData = [
+    {
+      header: "Personalized, AI-Driven Learning",
+      paragraph:
+        "EEC utilizes advanced AI to deliver tailored learning experiences, adapting to each student’s unique needs and pace. This dynamic approach ensures focused academic growth, fostering a deeper understanding of subjects.",
+    },
+    {
+      header: "Engaging and Interactive Content",
+      paragraph:
+        "With multimedia-rich, real-world-based lessons, EEC transforms traditional learning into an immersive experience. Students engage with content that not only informs but also motivates them to explore and excel.",
+    },
+    {
+      header: "Seamless Flexibility and Access",
+      paragraph:
+        "EEC offers unmatched flexibility, allowing students to access learning materials anytime, anywhere, on any device. This ensures that learning can continue uninterrupted, adapting to the student’s schedule and pace.",
+    },
+    {
+      header: "Real-Time Performance Insights",
+      paragraph:
+        "Through continuous feedback and AI-driven analytics, EEC tracks and monitors student progress, providing immediate insights and recommendations. This ensures that students and educators are always aligned with academic goals, facilitating timely interventions.",
+    },
+    {
+      header: "Collaborative Learning and Future-Ready Skills",
+      paragraph:
+        "EEC fosters collaboration through group projects and peer interaction while equipping students with critical skills such as problem-solving, digital literacy, and teamwork. These skills are essential for success in both academic and professional spheres.",
+    },
+  ];
 
-      <section className="section">
-        <div className="cardContainer">
-          <div className="card">
-          <div className="imageWrapper">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_2rhAGdWW.webp"
-            alt="School Management"
-            className="image"
-          />
-          </div>
-          <div className="contentWrapper">
-            <h3>Efficient School Management</h3>
-            <p>Our platform simplifies administrative tasks with features like attendance and fee tracking, allowing educators to focus more on teaching and less on paperwork.It offers tools for scheduling.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-          </div>
-          <div className="card">
-          <div className="imageWrapper">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_0LpeNtKT.webp"
-            alt="School Management"
-            className="image"
-          />
-          </div>
-          <div className="contentWrapper">
-            <h3>Interactive Learning Tools</h3>
-            <p>EEC provides interactive lessons that engage students and enhance their learning experience, making education more enjoyable and effective, and also advance their critical thinking, problem-solving skills, and creativity. </p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-          </div>
-          <div className="card">
-          <div className="imageWrapper">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_xxI1CEa7.webp"
-            alt="School Management"
-            className="image"
-          />
-          </div>
-          <div className="contentWrapper">
-            <h3>Parental Controls and Monitoring</h3>
-            <p>Parents can effortlessly monitor their child's academic progress, milestones, and overall achievements through an intuitive tracking system. This ensures  in their child’s educational.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-          </div>
+  return (
+    <div style={{ textAlign: "center",
+        padding: "50px",backgroundColor: "#fff9e6",}}>
+    <div className="grid-container">
+      {gridData.map((item, index) => (
+        <div className="grid-item" key={index}>
+          <h2>{item.header}</h2>
+          <p>{item.paragraph}</p>
         </div>
-      </section>
-
-      <section className="sectionWithImage">
-      <div className="contentContainer">
-          <h2>Explore Our Detailed Features for Educators</h2>
-          
-        </div>
-        <div className="contentContainer">
-         
-          <p>
-          EEC offers a comprehensive suite of tools designed to enhance the educational experience. From precise attendance tracking to engaging interactive lessons, our platform ensures seamless administration and personalized learning. Discover how our features can transform your educational environment and support both educators and students in achieving their goals.
-          </p>
-          
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="cardContainer">
-          <div className="card">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_ZN79VIht.webp"
-            alt="School Management"
-            className="image"
-          />
-            <h3>Real-Time Attendance Tracking</h3>
-            <p>Monitor student attendance effortlessly with our real-time tracking system. This feature ensures accurate record-keeping and helps educators maintain a structured learning environment.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-          <div className="card">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_2TdGi5jH.webp"
-            alt="School Management"
-            className="image"
-          />
-            <h3>Interactive Lessons for Engagement</h3>
-            <p>Our interactive lessons are designed to captivate students' attention and enhance their learning experience. These tools make learning more engaging and effective.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-          <div className="card">
-          <img
-            src="https://10web-site.ai/230/wp-content/uploads/sites/242/2024/12/tenweb_media_MdXV2RND.webp"
-            alt="School Management"
-            className="image"
-          />
-            <h3>Comprehensive Progress Monitoring</h3>
-            <p>Track and analyze student progress with our comprehensive monitoring tools. This feature provides valuable insights to help educators tailor their teaching strategies.</p>
-            {/* <button className="ctaButton">Explore More</button> */}
-          </div>
-        </div>
-      </section>
-  </div>
-);
+      ))}
+    </div>
+    </div>
+  );
+};
 
 export default Features;

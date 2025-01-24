@@ -4,30 +4,30 @@ import "./Fourdivs.css"; // Assuming you create a CSS file for styling
 const Fourdivs = () => {
   const features = [
     {
-      title: "Paper-free Management",
+      title: "AI-Powered Learning Insights",
       description:
-        "Build on open API, to customise solutions based on school needs. Custom URL & tailored reports.",
+        "EEC utilizes artificial intelligence to analyze student progress and learning patterns, offering personalized recommendations that enhance each student’s learning journey.",
       color: "#47B9D2", // Customize colors as needed
       icon: "🛠️",
     },
     {
-      title: "Maximizes Efficiency & Productivity",
+      title: "Adaptive Learning Paths",
       description:
-        "Engage Teachers, Students, Parents without technical expertise. Multiuser login operations with ease.",
+        "With machine learning algorithms, EEC tailors educational content to the individual needs of each student, ensuring they learn at their own pace and level of understanding.",
       color: "#FF9C39",
       icon: "🙋",
     },
     {
-      title: "Maximizes Efficiency & Productivity",
+      title: "Advanced LMS Features",
       description:
-        "Our experienced support engineers are available round the clock for any resolution of query.",
+        "EEC’s Learning Management System (LMS) is designed for the future of education, with tools for interactive lessons, gamified content, and real-time assessments that keep students engaged.",
       color: "#3CC8A9",
       icon: "📞",
     },
     {
-      title: "Centralized Admin Oversight",
+      title: "Data-Driven Performance Monitoring",
       description:
-        "Implementation of 'Zero Trust' access layer for authentication & authorisation of canvas application.",
+        "Through AI and machine learning, EEC provides educators with real- time performance tracking, highlighting areas of improvement and helping create customized learning interventions for each student.",
       color: "#E76E68",
       icon: "🔒",
     },
