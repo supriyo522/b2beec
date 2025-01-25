@@ -51,7 +51,7 @@ function ImContent() {
           <img src={eecbit} alt="School ERP Modules" />
         </div>
         <div className="text-content1" data-aos="zoom-out-left">
-          <h2>Fee Collection Software</h2>
+          <h2>Comprehensive Fee Automation Software</h2>
           <ul>
             <li>Automates end-to-end fee collection</li>
             <li>Supports online fee payment with multiple options</li>

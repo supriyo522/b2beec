@@ -7,9 +7,9 @@
   box-sizing: border-box; /* Ensure dimensions include padding */
   overflow: hidden;
   background-color: #f4f4f4;
-  background-image: url('./Image/backgroundeec.jpeg'); /* Add your image path here */
+  /* background-image: url('./Image/backgroundeec.jpeg'); */
   background-size:contain;
-  background-size: 100% 100%; /* Makes the image cover the entire section */
+  background-size: 100% 100%; 
   
   /* background-position:contain; Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */

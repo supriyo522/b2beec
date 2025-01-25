@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './AboutUs.css'; // Import the CSS file
 
 const AboutUs = () => {
@@ -26,24 +27,25 @@ const AboutUs = () => {
         <p className="about-paragraph">
           EEC also provides a powerful ERP solution that streamlines school administration. From attendance tracking to fee management and performance reporting,
           our ERP simplifies every operational aspect for administrators. Real-time insights, automated workflows, and efficient communication channels ensure
-          smooth coordination across all stakeholders.
-        </p>
-      </section>
-
-      <section className="about-section">
-        <p className="about-paragraph">
-          By combining LMS and ERP on a single platform, EEC offers schools an all-in-one solution for modern education management. Whether it’s enhancing the
+          smooth coordination across all stakeholders. By combining LMS and ERP on a single platform, EEC offers schools an all-in-one solution for modern education management. Whether it’s enhancing the
           learning experience or optimizing administrative processes, we are committed to empowering educators, students, and school leaders to achieve
           excellence.
         </p>
       </section>
 
-      <footer className="about-footer">
-        <p>
-          Join us in shaping the future of education with <strong>EEC</strong>—where technology drives learning and management into a smarter, more connected
-          tomorrow.
+      {/* <section className="about-section">
+        <p className="about-paragraph">
+          By combining LMS and ERP on a single platform, EEC offers schools an all-in-one solution for modern education management. Whether it’s enhancing the
+          learning experience or optimizing administrative processes, we are committed to empowering educators, students, and school leaders to achieve
+          excellence.
         </p>
-      </footer>
+      </section> */}
+
+      <footer className="about-footer">
+  <p> 
+  <Link to="/contact" className="about-link"> Join us</Link> in shaping the future of education with <strong>EEC</strong>—where technology drives learning and management into a smarter, more connected tomorrow. 
+  </p>
+</footer>
     </div>
   );
 };
