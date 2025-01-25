@@ -53,6 +53,12 @@ const Navbar = () => {
           </Link>
         </li>
 
+        <li>
+          <Link to="/Career" onClick={() => setMenuOpen(false)}>
+          <button className="learnMoreBtn">Career</button>
+          </Link>
+        </li>
+
         {/* <li>
           <Link to="/Testimonial" onClick={() => setMenuOpen(false)}>
           <button className="learnMoreBtn">Testimonial</button>
