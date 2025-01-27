@@ -4,9 +4,10 @@ import "aos/dist/aos.css"; // Import AOS styles
 import eecbit from "./Image/eecbit.png";
 import eecnet from "./Image/eecnet.jpeg";
 import neweec from "./Image/neweec.jpeg";
-import eecsocial from "./Image/eecsocial.jpg";
+// import eecsocial from "./Image/eecsocial.jpg";
 import eecpaper from "./Image/eecpaper.jpeg";
 import eectable from "./Image/eectable.png";
+import eecfeed from "./Image/eecfeed.png";
 import "./imcontent.css";
 
 function ImContent() {
@@ -118,7 +119,7 @@ function ImContent() {
       <hr />
       <div className="main-content1" style={{ gap: "100px" }}>
         <div className="image-content1" data-aos="zoom-out-right">
-          <img src={eecsocial} alt="School ERP Modules" />
+          <img src={eecfeed} alt="School ERP Modules" />
         </div>
         <div className="text-content1" data-aos="zoom-out-left">
           <h2>Empowering Health, Ensuring Success</h2>
@@ -130,6 +131,7 @@ function ImContent() {
           </ul>
         </div>
       </div>
+
     </div>
   );
 }
