@@ -31,16 +31,15 @@ const Features = () => {
   ];
 
   return (
-    <div style={{ textAlign: "center",
-        padding: "50px",backgroundColor: "#fff9e6",}}>
-    <div className="grid-container">
-      {gridData.map((item, index) => (
-        <div className="grid-item" key={index}>
-          <h2>{item.header}</h2>
-          <p>{item.paragraph}</p>
-        </div>
-      ))}
-    </div>
+    <div style={{ textAlign: "center", padding: "50px", backgroundColor: "#fff9e6" }}>
+      <div className="grid-container">
+        {gridData.map((item, index) => (
+          <div className={`grid-item item-${index + 1}`} key={index}>
+            <h2>{item.header}</h2>
+            <p>{item.paragraph}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
