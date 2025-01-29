@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import "./CareerPage.css";
+import './CareerPage.css';
 
-// Sample job listings
 const jobListings = [
   {
     id: 1,
@@ -21,22 +20,26 @@ const jobListings = [
 ];
 
 const CareerPage = () => {
-  const [isFormVisible, setFormVisible] = useState(false);
+  const [isModalVisible, setModalVisible] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', jobId: null });
 
   const handleApplyClick = (jobId) => {
-    setFormVisible(true);
+    setModalVisible(true);
     setFormData({ ...formData, jobId });
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     alert('Application submitted! We will contact you soon.');
-    setFormVisible(false);
+    setModalVisible(false);
   };
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleCloseModal = () => {
+    setModalVisible(false);
   };
 
   return (
@@ -53,28 +56,33 @@ const CareerPage = () => {
         ))}
       </div>
 
-      {isFormVisible && (
-        <div className="application-form">
-          <h2>Apply for {jobListings.find((job) => job.id === formData.jobId)?.title}</h2>
-          <form onSubmit={handleFormSubmit}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-            <button type="submit">Submit Application</button>
-          </form>
+      {isModalVisible && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={handleCloseModal}>
+              &times;
+            </span>
+            <h2>Apply for {jobListings.find((job) => job.id === formData.jobId)?.title}</h2>
+            <form onSubmit={handleFormSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={formData.name}
+                onChange={handleInputChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+              />
+              <button type="submit">Submit Application</button>
+            </form>
+          </div>
         </div>
       )}
     </div>

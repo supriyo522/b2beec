@@ -1,67 +1,91 @@
+/* Career Page Styles */
 .career-page {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .job-listings {
-    margin: 20px 0;
-  }
-  
-  .job {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    background-color: #f9f9f9;
-    text-align: left;
-  }
-  
-  .job h3 {
-    margin: 0;
-  }
-  
-  .job p {
-    margin: 10px 0;
-  }
-  
-  button {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  .application-form {
-    margin-top: 20px;
-  }
-  
-  .application-form form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .application-form input {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .application-form button {
-    padding: 10px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .application-form button:hover {
-    background-color: #218838;
-  }
-  
+  text-align: center;
+  padding: 20px;
+}
+
+.job-listings {
+  margin: 20px 0;
+}
+
+.job {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.job h3 {
+  margin: 0;
+}
+
+.job p {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-content button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #218838;
+}
