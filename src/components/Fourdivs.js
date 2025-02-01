@@ -5,6 +5,8 @@ import {
   faUser,
   faPhone,
   faLock,
+  faRoute,
+  faCog,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Fourdivs.css";
 
@@ -22,14 +24,14 @@ const Fourdivs = () => {
       description:
         "With machine learning algorithms, EEC tailors educational content to the individual needs of each student, ensuring they learn at their own pace and level of understanding.",
       color: "#FF9C39",
-      icon: faUser,
+      icon: faRoute,
     },
     {
       title: "Advanced LMS Features",
       description:
         "EEC’s Learning Management System (LMS) is designed for the future of education, with tools for interactive lessons, gamified content, and real-time assessments that keep students engaged.",
       color: "#3CC8A9",
-      icon: faPhone,
+      icon: faCog,
     },
     {
       title: "Data-Driven Performance Monitoring",

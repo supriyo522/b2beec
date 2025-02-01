@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TopBar from "./components/TopBar.js";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 // import Courses from "./components/Courses";
@@ -14,6 +15,7 @@ import Footer from "./components/Footer";
 import CustomCursor from "./components/CustomCursor";
 const App = () => (
   <Router>
+    <TopBar/>
     <Navbar />
     <CustomCursor />
     {/* <div style={{ padding: "" }}> */}

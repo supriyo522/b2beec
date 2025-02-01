@@ -5,6 +5,18 @@ import {
   FaClipboardCheck,
   FaUserGraduate,
   FaUserCheck,
+  FaRegStar,
+  FaMap,
+  FaChartLine,
+  FaLaptop,
+  FaCar,
+  FaCalendarAlt ,
+  FaFingerprint,
+  FaRegCalendarAlt,
+  FaCreditCard,
+  FaReceipt,
+  FaFileInvoice,
+  FaBell,
   FaBook,
 } from "react-icons/fa";
 import "./Cards.css";
@@ -36,12 +48,12 @@ const Cards = ({ category }) => {
           "EEC provides quizzes and self-assessments to help students gauge their understanding. Students can unlock further content as they complete assessments, motivating them to progress and learn continuously with engaging activities.",
         icon: <FaBook />,
       },
-      {
-        title: "Class Scheduling &amp; Notifications",
-        description:
-          "EEC allows easy class scheduling and automated notifications for students and teachers. This feature ensures that all important updates, deadlines, and reminders are efficiently communicated, promoting a well-organized learning environment.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Class Scheduling &amp; Notifications",
+      //   description:
+      //     "EEC allows easy class scheduling and automated notifications for students and teachers. This feature ensures that all important updates, deadlines, and reminders are efficiently communicated, promoting a well-organized learning environment.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
     "Student Management": [
       {
@@ -68,19 +80,19 @@ const Cards = ({ category }) => {
           "EEC provides students with insightful learning analytics. This data helps identify performance patterns, offering actionable feedback and recommendations to improve learning outcomes and boost academic success.",
         icon: <FaBook />,
       },
-      {
-        title: "Wellness Support",
-        description:
-          "Incorporating mental health tools, EEC ensures students maintain a balance between academic focus and well-being, with features like mood tracking and mindfulness exercises to promote mental clarity and emotional health.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Wellness Support",
+      //   description:
+      //     "Incorporating mental health tools, EEC ensures students maintain a balance between academic focus and well-being, with features like mood tracking and mindfulness exercises to promote mental clarity and emotional health.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
     "AI and ML features of EEC": [
       {
         title: "Tailored Learning Journeys",
         description:
           "AI customizes learning paths based on student performance, interests, and pace, ensuring an optimized and personal educational experience.",
-        icon: <FaUserGraduate />,
+        icon: <FaRegStar />,
       },
       {
         title: "Smart Progress Insights",
@@ -106,13 +118,13 @@ const Cards = ({ category }) => {
         title: "Digital E-Library Access",
         description:
           "A comprehensive online library for students to access study materials, e-books, and resources anytime, enhancing learning flexibility and convenience.",
-        icon: <FaUserGraduate />,
+        icon: <FaLaptop />,
       },
       {
         title: "Real-Time Fleet Tracking",
         description:
           "Track and manage school buses or other transport vehicles in real time, ensuring smooth operations and timely arrivals.",
-        icon: <FaClipboardCheck />,
+        icon: <FaCar />,
       },
       {
         title: "Enhanced Safety Features",
@@ -124,21 +136,21 @@ const Cards = ({ category }) => {
         title: "GPS-Based Student Tracking",
         description:
           "Secure tracking of students from pick-up to drop-off, providing parents and schools with peace of mind.",
-        icon: <FaBook />,
+        icon: <FaMap />,
       },
-      {
-        title: "Instant Notifications",
-        description:
-          "Receive automated updates about transportation schedules, delays, or incidents, keeping both schools and parents informed at all times.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Instant Notifications",
+      //   description:
+      //     "Receive automated updates about transportation schedules, delays, or incidents, keeping both schools and parents informed at all times.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
     "Exam Management": [
       {
         title: "Seamless Exam Scheduling",
         description:
           "EEC allows schools to schedule exams efficiently, with automated reminders for students and teachers to stay on track.",
-        icon: <FaUserGraduate />,
+        icon: <FaCalendarAlt  />,
       },
       {
         title: "Secure Online Assessments",
@@ -156,27 +168,27 @@ const Cards = ({ category }) => {
         title: "Performance Analytics",
         description:
           "Detailed analytics of exam performance, highlighting strengths and areas for improvement, helping students track progress.",
-        icon: <FaBook />,
+        icon: <FaChartLine/>,
       },
-      {
-        title: "Exam Review &amp; Feedback",
-        description:
-          "Students can review their answers and receive personalized feedback, helping them understand mistakes and improve for future exams.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Exam Review &amp; Feedback",
+      //   description:
+      //     "Students can review their answers and receive personalized feedback, helping them understand mistakes and improve for future exams.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
     "HR Management": [
       {
         title: "Attendance Monitoring",
         description:
           "Automated tracking of both staff and students&#39; attendance with notifications for absenteeism.",
-        icon: <FaUserGraduate />,
+        icon: <FaFingerprint />,
       },
       {
         title: "Leave Management",
         description:
           "Streamlined leave request and approval process, maintaining accurate leave records for staff.",
-        icon: <FaClipboardCheck />,
+        icon: <FaRegCalendarAlt/>,
       },
       {
         title: "HR Insights",
@@ -190,52 +202,53 @@ const Cards = ({ category }) => {
           "Centralized management of staff data, including roles, qualifications, and performance history.",
         icon: <FaBook />,
       },
-      {
-        title: "Staff Scheduling",
-        description:
-          "Efficient scheduling system for staff, ensuring smooth operation and coverage of all school activities.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Staff Scheduling",
+      //   description:
+      //     "Efficient scheduling system for staff, ensuring smooth operation and coverage of all school activities.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
     "Finance Management": [
       {
         title: "Fee Payment Management",
         description:
           "EEC offers a streamlined system for fee collection with multiple payment gateways, enabling smooth, hassle-free payments for parents and schools.",
-        icon: <FaUserGraduate />,
+        icon: <FaCreditCard  />,
       },
       {
         title: "Financial Due Reports",
         description:
           "Automatically generated reports on outstanding payments, providing schools with real-time visibility into pending dues and allowing for timely follow-ups.",
-        icon: <FaClipboardCheck />,
+        icon: <FaReceipt />,
       },
       {
         title: "Payment History Reports",
         description:
           "Detailed payment transaction reports, giving schools and parents easy access to historical payment data and receipts.",
-        icon: <FaChalkboardTeacher />,
+        icon: <FaFileInvoice />,
       },
       {
         title: "Payment RemindersPayment Reminders",
         description:
           "Automated reminders sent to parents regarding upcoming or overdue fees, ensuring timely payments and reducing manual follow-ups.",
-        icon: <FaBook />,
+        icon: <FaBell />,
       },
-      {
-        title: "Expense Management",
-        description:
-          "Track school expenses efficiently with categories and detailed reports, helping schools manage budgets and optimize their financial resources.",
-        icon: <FaUserCheck />,
-      },
+      // {
+      //   title: "Expense Management",
+      //   description:
+      //     "Track school expenses efficiently with categories and detailed reports, helping schools manage budgets and optimize their financial resources.",
+      //   icon: <FaUserCheck />,
+      // },
     ],
   };
 
   return (
-    <div className="cards-container">
+    
+    <div className="cards-container1">
       {content[category]?.map((item, index) => (
-        <div key={index} className="card">
-          <div className="card-icon">{item.icon}</div>
+        <div key={index} className="card1">
+          <div className="card1-icon">{item.icon}</div>
           <h3>{item.title}</h3>
           <p>{item.description}</p>
         </div>

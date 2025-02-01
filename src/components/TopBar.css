@@ -1,0 +1,63 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d617;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Left side scrolling */
+  .left-scroll {
+    flex: 1;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari */
+  .left-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    animation: scrollText 8s linear infinite;
+  }
+  
+  /* Right side fixed */
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Icons and text styling */
+  .divider {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .icon {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .free-demo {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Smooth scrolling effect */
+  @keyframes scrollText {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

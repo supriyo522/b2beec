@@ -1,59 +1,49 @@
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
-    gap: 10px; /* Reduced gap */
-    padding: 20px;
-    justify-content: center;
+.cards-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+  gap: 10px; /* Space between cards */
+  padding: 20px;
+  justify-content: center;
+  place-items: center; /* Center-align cards */
+}
+
+/* Card Styling */
+.card1 {
+  background: #f0f2ba;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+  height: 280px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Icon Styling */
+.card1-icon {
+  font-size: 3rem; /* Adjusted icon size */
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+/* Heading & Paragraph */
+h3 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .cards-container1 {
+    grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    gap: 10px;
   }
-  
-  .card {
-    background: #ede7f6;
-    padding: 30px; /* Increased padding for a larger card */
-    border-radius: 12px;
-    text-align: center;
-    width: 300px; /* Increased width */
-    height: 300px; /* Increased height */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card-icon {
-    font-size: 4rem; /* Increased icon size */
-    color: #6a1b9a;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    margin: 10px 0;
-    font-size: 1.4rem; /* Larger text */
-  }
-  
-  p {
-    color: #555;
-    font-size: 1rem; /* Slightly larger text */
-  }
-  
-  /* Responsive Grid for Smaller Screens */
-  @media (max-width: 1024px) {
-    .cards-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .cards-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
-      gap: 8px; /* Further reduced gap */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .cards-container {
-      grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
-      gap: 5px;
-    }
-  }
-  
+}

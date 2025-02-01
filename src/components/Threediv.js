@@ -24,6 +24,8 @@ const featur = [
 
 const Featur = () => {
   return (
+    <div>
+    <h1>User-Centric Design & Seamless Access</h1>
     <div className="featur-container">
       {featur.map((feature, index) => (
         <div key={index} className="featur-card" style={{ height: "400px" }}>
@@ -36,6 +38,7 @@ const Featur = () => {
           <p>{feature.description}</p>
         </div>
       ))}
+    </div>
     </div>
   );
 };
