@@ -9,15 +9,22 @@ import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
 import eec10 from "./Image/eec10.jpeg"
 // import Animation from "./WelcomeAnimation";
+import Carousel from "./Carousel";
 import Automate from "./Automate";
 import Imcontent from "./imcontent";
+import Threediv from "./Threediv";
+
 import Fourdivs from "./Fourdivs";
+import Tabs from "./Tabs";
+import Cards from "./Cards";
+
 
 import "./Home.css";
 // import Fourdivs from "./Fourdivs";/
 
 const ScrollProgress = () => {
   const [scrollPercent, setScrollPercent] = useState(0);
+  const [selectedTab, setSelectedTab] = useState("Academics Management");
 
   const handleScroll = () => {
     const scrollTop = document.documentElement.scrollTop;
@@ -53,7 +60,7 @@ const ScrollProgress = () => {
         
       </div> */}
      {/* <Animation/> */}
-
+     <Carousel />
       <Automate/>
     
       {/* Offerings Sections */}
@@ -89,7 +96,10 @@ improvement. Join us in revolutionizing education.Transforming Education through
         </div>
       </section>  */}
       <Fourdivs/>
-      <Imcontent/>
+      <Tabs onTabChange={setSelectedTab} />
+      <Cards category={selectedTab} />
+      {/* <Imcontent/> */}
+      <Threediv />
       <section className="sectionWithImage">
         {/* <div className="contentContainer">
           <h2>EEC Vision:</h2>

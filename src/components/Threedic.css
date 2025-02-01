@@ -1,0 +1,50 @@
+.featur-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .featur-card {
+    width: 300px;
+    min-height: 300px; /* Increased height to accommodate text */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featur-card:hover .featur-image {
+    /* transform: rotate(5deg); Slight rotation */
+    transform: scale(1.2) rotate(3deg);
+  }
+  
+  .featur-image {
+    width: 100%;
+    height: 180px; /* Fixed height to prevent large images pushing content */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .featur-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .featur-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    flex-grow: 1; /* Allows paragraph to fill remaining space */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+  

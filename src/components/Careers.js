@@ -21,7 +21,7 @@ const jobListings = [
 
 const CareerPage = () => {
   const [isModalVisible, setModalVisible] = useState(false);
-  const [formData, setFormData] = useState({ name: '', email: '', jobId: null });
+  const [formData, setFormData] = useState({ name: '', email: '', resume: null, jobId: null });
 
   const handleApplyClick = (jobId) => {
     setModalVisible(true);
@@ -31,11 +31,16 @@ const CareerPage = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     alert('Application submitted! We will contact you soon.');
+    console.log('Submitted Data:', formData);
     setModalVisible(false);
   };
 
   const handleInputChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleFileChange = (e) => {
+    setFormData({ ...formData, resume: e.target.files[0] });
   };
 
   const handleCloseModal = () => {
@@ -59,9 +64,7 @@ const CareerPage = () => {
       {isModalVisible && (
         <div className="modal">
           <div className="modal-content">
-            <span className="close" onClick={handleCloseModal}>
-              &times;
-            </span>
+            <span className="close" onClick={handleCloseModal}>&times;</span>
             <h2>Apply for {jobListings.find((job) => job.id === formData.jobId)?.title}</h2>
             <form onSubmit={handleFormSubmit}>
               <input
@@ -78,6 +81,14 @@ const CareerPage = () => {
                 placeholder="Your Email"
                 value={formData.email}
                 onChange={handleInputChange}
+                required
+              />
+              <h2>Resume upload</h2>
+              <input
+                type="file"
+                name="resume"
+                accept=".pdf,.doc,.docx"
+                onChange={handleFileChange}
                 required
               />
               <button type="submit">Submit Application</button>
