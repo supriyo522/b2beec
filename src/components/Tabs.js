@@ -46,7 +46,7 @@ const Tabs = ({ onTabChange }) => {
 
   return (
     <div>
-    <h1>Our Features</h1>
+    <h1 style={{color:"#2525a3"}}>Our Features</h1>
     <div className="tabs-container">
       <div className="tabs">
         {tabs.map((tab) => (

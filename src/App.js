@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 // import Courses from "./components/Courses";
 import AboutUs from "./components/AboutUs";
-import Features from "./components/Features";
+// import Features from "./components/Features";
+import Book from "./components/Book.js";
 import Benefits from "./components/ContactUs";
 import ContactUs from "./components/SimpleForm.js";
 import Gallery from "./components/Gallery.js";
@@ -23,7 +24,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         {/* <Route path="/courses" element={<Courses />} /> */}
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/features" element={<Features />} />
+        <Route path="/features" element={<Book />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/Gallery" element={<Gallery />}/>

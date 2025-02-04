@@ -44,7 +44,7 @@ const Fourdivs = () => {
 
   return (
     <div className="features-container">
-      <h2>Why EEC?</h2>
+      <h2 style={{color:"#2525a3"}}>Why EEC?</h2>
       <p>
         &quot;EEC is designed to save time and reduce administrative burden for
         schools while offering students dynamic learning tools and helping
@@ -62,10 +62,10 @@ const Fourdivs = () => {
               <FontAwesomeIcon
                 icon={feature.icon}
                 size="2x"
-                style={{ color: "yellow" }}
+                style={{ color: "#eff319" }}
               />
             </div>
-            <h3>{feature.title}</h3>
+            <h3 style={{color:"#2525a3"}}>{feature.title}</h3>
             <p>{feature.description}</p>
           </div>
         ))}

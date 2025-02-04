@@ -229,7 +229,7 @@ const Cards = ({ category }) => {
         icon: <FaFileInvoice />,
       },
       {
-        title: "Payment RemindersPayment Reminders",
+        title: "Payment Reminders Payment",
         description:
           "Automated reminders sent to parents regarding upcoming or overdue fees, ensuring timely payments and reducing manual follow-ups.",
         icon: <FaBell />,
