@@ -9,7 +9,8 @@ import eec9 from "./Image/eec9.jpeg"
 import eec6 from "./Image/eec6.png"
 import eec10 from "./Image/eec10.jpeg"
 // import Animation from "./WelcomeAnimation";
-import Carousel from "./Carousel";
+import VideoPlayer from "./VideoPlayer";
+// import Carousel from "./Carousel";
 import Automate from "./Automate";
 import Imcontent from "./imcontent";
 import Threediv from "./Threediv";
@@ -60,7 +61,8 @@ const ScrollProgress = () => {
         
       </div> */}
      {/* <Animation/> */}
-     <Carousel />
+     <VideoPlayer/>
+     {/* <Carousel /> */}
       <Automate/>
     
       {/* Offerings Sections */}

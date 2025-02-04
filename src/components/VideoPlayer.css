@@ -1,0 +1,11 @@
+.video-container {
+    /* margin: 20px 0; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  video {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
