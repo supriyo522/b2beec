@@ -40,6 +40,8 @@ if (features.length % 2 !== 0) {
 
 const Book = () => {
   return (
+    <div>
+      <h1 className="book-title">Our Features</h1>
     <div className="book-container">
       <HTMLFlipBook width={400} height={450} className="flipbook">
         {features.map((feature, index) => (
@@ -52,6 +54,7 @@ const Book = () => {
           </div>
         ))}
       </HTMLFlipBook>
+    </div>
     </div>
   );
 };

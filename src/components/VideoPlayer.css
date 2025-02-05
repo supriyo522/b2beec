@@ -5,7 +5,8 @@
   }
   
   video {
-    max-width: 100%;
+    width:90%;
+    height: 90%;
     border-radius: 10px;
   }
   

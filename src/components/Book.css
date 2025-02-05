@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
     height: 100vh;
-    background-color: #fff9e6;
+    /* background-color: #fff9e6; */
   }
   
   .flipbook {
@@ -56,5 +57,12 @@
     font-size: 44px;
     color: #664d00;
     font-style: italic;
+  }
+  .book-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    /* margin-top: 15px; */
+    color: #2525a3;
   }
   
