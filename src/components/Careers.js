@@ -1,102 +1,115 @@
-import React, { useState } from 'react';
-import './CareerPage.css';
+import React from "react";
+import "./CareerPage.css";
 
-const jobListings = [
-  {
-    id: 1,
-    title: 'Software Engineer',
-    description: 'Build and maintain web applications. Proficient in JavaScript, React, and Node.js required.',
-  },
-  {
-    id: 2,
-    title: 'Product Manager',
-    description: 'Lead the development of new features, collaborate with engineering teams, and define product roadmaps.',
-  },
-  {
-    id: 3,
-    title: 'UX/UI Designer',
-    description: 'Design intuitive user interfaces for web and mobile applications. Experience with Figma and Adobe XD preferred.',
-  },
-];
+const JobCard = ({ title, description, requirements }) => {
+  return (
+    <div className="job-card">
+      <h5>{title}</h5>
+      <p>{description}</p>
+      <ul>
+        {requirements.map((req, index) => (
+          <li key={index}>{req}</li>
+        ))}
+      </ul>
+      <button className="apply-btn">Apply Now</button>
+    </div>
+  );
+};
 
 const CareerPage = () => {
-  const [isModalVisible, setModalVisible] = useState(false);
-  const [formData, setFormData] = useState({ name: '', email: '', resume: null, jobId: null });
-
-  const handleApplyClick = (jobId) => {
-    setModalVisible(true);
-    setFormData({ ...formData, jobId });
-  };
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    alert('Application submitted! We will contact you soon.');
-    console.log('Submitted Data:', formData);
-    setModalVisible(false);
-  };
-
-  const handleInputChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleFileChange = (e) => {
-    setFormData({ ...formData, resume: e.target.files[0] });
-  };
-
-  const handleCloseModal = () => {
-    setModalVisible(false);
-  };
+  const jobListings = [
+    {
+      title: "Frontend Developer",
+      description:
+        "Help us build beautiful and user-friendly interfaces for our EEC platform.",
+      requirements: [
+        "Experience with HTML, CSS, JavaScript",
+        "Knowledge of React or Vue.js",
+        "2+ years of experience",
+      ],
+    },
+    {
+      title: "Backend Developer",
+      description:
+        "Join our backend team to develop scalable and high-performing applications for our learning platform.",
+      requirements: [
+        "Experience with Node.js, Python, or PHP",
+        "Familiarity with databases like MySQL or MongoDB",
+        "3+ years of experience",
+      ],
+    },
+    {
+      title: "UX/UI Designer",
+      description:
+        "Design intuitive and user-centric experiences for the EEC platform.",
+      requirements: [
+        "Experience with Figma, Sketch, or Adobe XD",
+        "Knowledge of user research methods",
+        "2+ years of experience",
+      ],
+    },
+  ];
 
   return (
-    <div className="career-page">
-      <h1>Join Our Team!</h1>
-      <div className="job-listings">
-        <h2>Current Openings</h2>
-        {jobListings.map((job) => (
-          <div key={job.id} className="job">
-            <h3>{job.title}</h3>
-            <p>{job.description}</p>
-            <button onClick={() => handleApplyClick(job.id)}>Apply Now</button>
-          </div>
-        ))}
+    <>
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-content">
+          <h1>Join the EEC Team</h1>
+          <p>Empower the future of learning with our innovative platform.</p>
+          <a href="#job-openings" className="explore-btn">
+            Explore Opportunities
+          </a>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <div className="info-career">
+        <p>
+          Welcome to EEC, where innovation meets education! At EEC, we are
+          dedicated to shaping the future of learning by creating an engaging,
+          student-centric platform.
+        </p>
       </div>
 
-      {isModalVisible && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="close" onClick={handleCloseModal}>&times;</span>
-            <h2>Apply for {jobListings.find((job) => job.id === formData.jobId)?.title}</h2>
-            <form onSubmit={handleFormSubmit}>
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                value={formData.name}
-                onChange={handleInputChange}
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                value={formData.email}
-                onChange={handleInputChange}
-                required
-              />
-              <h2>Resume upload</h2>
-              <input
-                type="file"
-                name="resume"
-                accept=".pdf,.doc,.docx"
-                onChange={handleFileChange}
-                required
-              />
-              <button type="submit">Submit Application</button>
-            </form>
+      {/* Job Openings */}
+      <section id="job-openings" className="job-section">
+        <h2>Current Job Openings</h2>
+        <div className="job-list">
+          {jobListings.map((job, index) => (
+            <JobCard key={index} {...job} />
+          ))}
+        </div>
+      </section>
+
+      {/* Why Join Us Section */}
+      <section className="why-join">
+        <h2>Why Join EEC?</h2>
+        <div className="why-cards">
+          <div className="why-card">
+            <h5>Innovative Culture</h5>
+            <p>
+              We foster a creative and collaborative environment that empowers
+              you to bring new ideas to life.
+            </p>
+          </div>
+          <div className="why-card">
+            <h5>Great Team</h5>
+            <p>
+              Work with a passionate team of professionals dedicated to
+              revolutionizing the education industry.
+            </p>
+          </div>
+          <div className="why-card">
+            <h5>Growth Opportunities</h5>
+            <p>
+              Advance your career with ample opportunities for professional
+              development and learning.
+            </p>
           </div>
         </div>
-      )}
-    </div>
+      </section>
+    </>
   );
 };
 
