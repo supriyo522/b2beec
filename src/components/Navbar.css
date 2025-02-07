@@ -3,14 +3,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
-  background-color:#2525a3;
+  background-color: #2525a3;
   color: #000;
   border-radius: 8px;
   position: relative;
 }
 
 .logo {
-  height: 80px; /* Adjust the height as needed */
+  height: 80px;
   object-fit: contain;
   border-radius: 8px;
 }
@@ -71,34 +71,46 @@
 }
 
 .dropdownMenu {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
   position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
   list-style: none;
-  padding: 0.5rem 0;
+  padding: 10px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1000;
+  min-width: 220px;
 }
 
 .dropdownMenu li {
-  padding: 0.5rem 1rem;
+  padding: 5px;
+  text-align: center;
 }
 
 .dropdownMenu li a {
+  display: block;
+  padding: 10px;
   color: #000;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .dropdownMenu li a:hover {
-  color: #d3d617;
+  background-color: #d3d617;
+  color: #fff;
 }
 
-.dropdown:hover .dropdownMenu {
-  display: block;
+/* Ensure Mission spans both columns */
+.dropdownMenu .full-width {
+  grid-column: span 2;
+  text-align: center;
 }
 
-/* Mobile adjustments for dropdown */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .navLinks {
     position: absolute;
@@ -135,13 +147,14 @@
     margin: 0.5rem 0;
   }
 
-  /* Ensure the dropdown is shown correctly on mobile */
+  /* Ensure the dropdown works on mobile */
   .dropdownMenu {
     position: relative;
     top: 0;
     left: 0;
     box-shadow: none;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
     text-align: center;
   }
