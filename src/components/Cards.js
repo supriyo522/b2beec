@@ -181,7 +181,7 @@ const Cards = ({ category }) => {
       {
         title: "Attendance Monitoring",
         description:
-          "Automated tracking of both staff and students&#39; attendance with notifications for absenteeism.",
+          "Automated tracking of both staff and students; attendance with notifications for absenteeism.",
         icon: <FaFingerprint />,
       },
       {

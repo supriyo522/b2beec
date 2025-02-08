@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaMoneyBillWave, FaBus, FaUsersCog, FaMobile, FaFileAlt, FaComments, FaGraduationCap } from "react-icons/fa";
 import eeclogo from "./Image/eeclogo.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
-  const [featureDrop,setFeatureDrop] = useState(false);
+  const [featureDrop, setFeatureDrop] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -28,11 +29,7 @@ const Navbar = () => {
         </li>
 
         {/* About Us Dropdown */}
-        <li
-          className="dropdown"
-          onMouseEnter={() => setAboutDropdown(true)}
-          onMouseLeave={() => setAboutDropdown(false)}
-        >
+        <li className="dropdown" onMouseEnter={() => setAboutDropdown(true)} onMouseLeave={() => setAboutDropdown(false)}>
           <Link to="/about" onClick={() => setMenuOpen(false)}>
             <button className="learnMoreBtn">About Us</button>
           </Link>
@@ -57,54 +54,70 @@ const Navbar = () => {
           )}
         </li>
 
-        <li className="dropdown"
-          onMouseEnter={() => setFeatureDrop(true)}
-          onMouseLeave={() => setFeatureDrop(false)}>
-          <Link to="/features" onClick={() => setMenuOpen(false)}>
-            <button className="learnMoreBtn">Features</button>
+        {/* Modules Dropdown with Icons */}
+        <li className="dropdown" onMouseEnter={() => setFeatureDrop(true)} onMouseLeave={() => setFeatureDrop(false)}>
+          <Link to="/modules" onClick={() => setMenuOpen(false)}>
+            <button className="learnMoreBtn">Modules</button>
           </Link>
           {featureDrop && (
             <ul className="dropdownMenu">
               <li>
-                <Link to="/features/Free collection Software" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Free collection Software</button>
+                <Link to="/modules/fee-collection-software" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaMoneyBillWave className="nav-icon" /> Fee Collection Software
+                  </button>
                 </Link>
               </li>
               <li>
-                <Link to="/features/Transport and gps Tracking" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Transport and gps Tracking</button>
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/features/HR Management features" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">HR Management features</button>
+                <Link to="/modules/transport-gps-tracking" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaBus className="nav-icon" /> Transport & GPS Tracking
+                  </button>
                 </Link>
               </li>
               <li>
-                <Link to="/features/Website and Mobile app" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Website and Mobile app</button>
+                <Link to="/modules/hr-management-features" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaUsersCog className="nav-icon" /> HR Management Features
+                  </button>
                 </Link>
               </li>
               <li>
-                <Link to="/features/Examination Software" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Examination Software</button>
+                <Link to="/modules/website-mobile-app" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaMobile className="nav-icon" /> Website & Mobile App
+                  </button>
                 </Link>
               </li>
               <li>
-                <Link to="/features/Parent communiction" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Parent communiction</button>
+                <Link to="/modules/examination-software" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaFileAlt className="nav-icon" /> Examination Software
+                  </button>
                 </Link>
               </li>
-            
-              
+              <li>
+                <Link to="/modules/parent-communication" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaComments className="nav-icon" /> Parent Communication
+                  </button>
+                </Link>
+              </li>
               <li className="full-width">
-                <Link to="/about/Learning management software" onClick={() => setMenuOpen(false)}>
-                  <button className="learnMoreBtn">Learning management software</button>
+                <Link to="/modules/learning-management-software" onClick={() => setMenuOpen(false)}>
+                  <button className="learnMoreBtn">
+                    <FaGraduationCap className="nav-icon" /> Learning Management Software
+                  </button>
                 </Link>
               </li>
             </ul>
           )}
+        </li>
+
+        <li>
+          <Link to="/features" onClick={() => setMenuOpen(false)}>
+            <button className="learnMoreBtn"> Features</button>
+          </Link>
         </li>
         <li>
           <Link to="/benefits" onClick={() => setMenuOpen(false)}>

@@ -109,6 +109,12 @@
   grid-column: span 2;
   text-align: center;
 }
+.nav-icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
