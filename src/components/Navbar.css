@@ -104,6 +104,10 @@
   color: #fff;
 }
 
+.dropdownMenu li a:hover .nav-icon {
+  color: #000; /* Change icon color when hovering */
+}
+
 /* Ensure Mission spans both columns */
 .dropdownMenu .full-width {
   grid-column: span 2;
@@ -113,11 +117,43 @@
   margin-right: 8px;
   font-size: 1.2rem;
   vertical-align: middle;
+  color: #d3d617;
 }
 
 
-/* Mobile adjustments */
+
+/* Tablet View (1024px and below) */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navButtons {
+    display: none;
+  }
+
+  .dropdownMenu {
+    grid-template-columns: 1fr;
+    min-width: 100%;
+  }
+}
+
+/* Mobile View (768px and below) */
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    padding: 1rem;
+  }
+
   .navLinks {
     position: absolute;
     top: 100%;
@@ -170,6 +206,7 @@
   }
 }
 
+/* Small Mobile (480px and below) */
 @media (max-width: 480px) {
   .logo {
     font-size: 1.2rem;
@@ -182,5 +219,10 @@
   .learnMoreBtn,
   .getStartedBtn {
     font-size: 0.8rem;
+  }
+
+  .dropdownMenu {
+    min-width: 100%;
+    text-align: center;
   }
 }
