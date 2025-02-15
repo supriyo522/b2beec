@@ -124,35 +124,60 @@
 
 /* Tablet View (1024px and below) */
 @media (max-width: 1024px) {
-  .navbar {
+  /* .navbar {
     flex-direction: row;
     padding: 1rem;
-  }
+    position: relative;
+  } */
 
   .navLinks {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    text-align: center;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .navLinks.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
 
   .hamburger {
     display: block;
   }
 
-  .navButtons {
-    display: none;
+  /* Ensure dropdowns are full-width on mobile */
+  .dropdownMenu {
+    position: relative;
+    width: 100%;
+    grid-template-columns: 1fr;
+    min-width: auto;
   }
 
-  .dropdownMenu {
-    grid-template-columns: 1fr;
-    min-width: 100%;
+  /* Ensure all buttons take full width on mobile */
+  .learnMoreBtn {
+    width: 100%;
+    text-align: center;
   }
 }
 
 /* Mobile View (768px and below) */
 @media (max-width: 768px) {
-  .navbar {
+  /* .navbar {
     flex-direction: row;
     padding: 1rem;
-  }
+  } */
 
   .navLinks {
     position: absolute;

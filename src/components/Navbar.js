@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to="/about" onClick={() => setMenuOpen(false)}>
             <button className="learnMoreBtn">About Us</button>
           </Link>
-          {aboutDropdown && (
+          {/* {aboutDropdown && (
             <ul className="dropdownMenu">
               <li>
                 <Link to="/about/story" onClick={() => setMenuOpen(false)}>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-          )}
+          )} */}
         </li>
 
         {/* Modules Dropdown with Icons */}

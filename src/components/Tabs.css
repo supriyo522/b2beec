@@ -32,3 +32,42 @@
     margin-top: 10px;
   }
   
+/* Tablet View (768px and below) */
+@media (max-width: 768px) {
+  .tabs {
+    gap: 1.5rem;
+  }
+
+  .tab span {
+    font-size: 1rem; /* Reduce text size for tablet view */
+  }
+
+  .tab span svg {
+    font-size: 1.3rem; /* Reduce icon size for tablets */
+  }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .tabs {
+    flex-direction: column; /* Stack tabs vertically */
+    gap: 1rem;
+  }
+
+  .tab {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+
+  .tab span {
+    font-size: 0.9rem;
+  }
+
+  .tab span svg {
+    font-size: 1.2rem;
+  }
+}

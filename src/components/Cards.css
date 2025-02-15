@@ -40,10 +40,37 @@ p {
   font-size: 1rem;
 }
 
-/* Responsive Adjustments */
+/* Responsive Adjustments*/
+
+
+/* Tablet View (768px and below) */
 @media (max-width: 768px) {
   .cards-container1 {
-    grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 15px;
+  }
+
+  .card1 {
+    padding: 12px;
+  }
+
+  .card1-icon {
+    font-size: 1.7rem;
+  }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .cards-container1 {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row */
     gap: 10px;
+  }
+
+  .card1 {
+    padding: 10px;
+  }
+
+  .card1-icon {
+    font-size: 1.5rem;
   }
 }
