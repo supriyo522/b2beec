@@ -18,9 +18,10 @@ const Navbar = () => {
       <Link to="/">
         <img src={eeclogo} alt="EEC Logo" className="logo" />
       </Link>
-      <button className="hamburger" onClick={toggleMenu}>
+      <button className="hamburger" onClick={toggleMenu} >
         ☰
       </button>
+      {/* <ul className={`navLinks ${menuOpen ? "open" : ""}`}> */}
       <ul className={`navLinks ${menuOpen ? "open" : ""}`}>
         <li>
           <Link to="/" onClick={() => setMenuOpen(false)}>
@@ -64,49 +65,49 @@ const Navbar = () => {
               <li>
                 <Link to="/modules/fee-collection-software" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaMoneyBillWave className="nav-icon" /> Fee Collection Software
+                  <img src="https://www.academyfront.com/images/blog/AF_Feb_3125X1586_1.png" alt="EEC Logo" className="logo1" />   Fee Collection Software
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="/modules/transport-gps-tracking" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaBus className="nav-icon" /> Transport & GPS Tracking
+                  <img src="https://img.freepik.com/free-vector/customer-using-online-app-taxi-order-car-rent_74855-5230.jpg?t=st=1739765351~exp=1739768951~hmac=0194e7708720b5a166cf3960921caef8d0262f87738a2000e49d52c07d696945&w=1380" alt="EEC Logo" className="logo1" /> Transport & GPS Tracking
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="/modules/hr-management-features" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaUsersCog className="nav-icon" /> HR Management Features
+                  <img src="https://thumbs.dreamstime.com/z/human-resource-management-icon-set-black-white-glyph-flat-icons-relating-to-business-68376029.jpg?ct=jpeg" alt="EEC Logo" className="logo1" /> HR Management Features
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="/modules/website-mobile-app" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaMobile className="nav-icon" /> Website & Mobile App
+                  <img src="https://img.freepik.com/free-photo/representation-user-experience-interface-design-smartphone_23-2150165980.jpg?ga=GA1.1.1782275132.1738929422&semt=ais_hybrid" alt="EEC Logo" className="logo1" />  Website & Mobile App
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="/modules/examination-software" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaFileAlt className="nav-icon" /> Examination Software
+                  <img src="https://img.freepik.com/free-vector/software-tester-concept-illustration_114360-11976.jpg" alt="EEC Logo" className="logo1" /> Examination Software
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to="/modules/parent-communication" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaComments className="nav-icon" /> Parent Communication
+                  <img src="https://img.freepik.com/free-vector/teamwork-working-using-laptop-flat-design_1308-92754.jpg?ga=GA1.1.1782275132.1738929422&semt=ais_hybrid" alt="EEC Logo" className="logo1" />  Parent Communication
                   </button>
                 </Link>
               </li>
               <li className="full-width">
                 <Link to="/modules/learning-management-software" onClick={() => setMenuOpen(false)}>
                   <button className="learnMoreBtn">
-                    <FaGraduationCap className="nav-icon" /> Learning Management Software
+                  <img src="https://img.freepik.com/free-photo/learning-education-ideas-insight-intelligence-study-concept_53876-120116.jpg?ga=GA1.1.1782275132.1738929422&semt=ais_hybrid" alt="EEC Logo" className="logo1" /> Learning Management Software
                   </button>
                 </Link>
               </li>

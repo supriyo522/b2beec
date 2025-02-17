@@ -48,3 +48,53 @@
     word-wrap: break-word;
   }
   
+  /* Tablet View (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .featur-container {
+      gap: 15px;
+  }
+
+  .featur-card {
+      width: 250px; /* Slightly smaller */
+      min-height: 320px;
+  }
+
+  .featur-image {
+      height: 160px; /* Reduce image height */
+  }
+
+  .featur-card h3 {
+      font-size: 16px;
+  }
+
+  .featur-card p {
+      font-size: 13px;
+  }
+}
+
+/* Mobile View (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  .featur-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .featur-card {
+      width: 90%; /* Take full width */
+      min-height: 300px;
+      padding: 15px;
+  }
+
+  .featur-image {
+      height: 150px;
+  }
+
+  .featur-card h3 {
+      font-size: 16px;
+  }
+
+  .featur-card p {
+      font-size: 14px;
+  }
+}

@@ -28,15 +28,20 @@ const features = [
     paragraph:
       "EEC fosters collaboration through group projects and peer interaction while equipping students with critical skills such as problem-solving, digital literacy, and teamwork. These skills are essential for success in both academic and professional spheres.",
   },
+  {
+    header: "Personalized Learning Paths",
+    paragraph:
+      "EEC will use AI to analyze a student's progress,strengths, and Weaknesses,then recommend customized study plans,worksheets then video lessons tailored to their needs",
+  },
 ];
 
 // Add an "End" page at the last
-features.push({ header: "The End", paragraph: "Thank you for reading!" });
+// features.push({ header: "The End", paragraph: "Thank you for reading!" });
 
-// Ensure the number of pages is even
-if (features.length % 2 !== 0) {
-  features.push({ header: "", paragraph: "" }); // Add an empty page for balance
-}
+// // Ensure the number of pages is even
+// if (features.length % 2 !== 0) {
+//   features.push({ header: "", paragraph: "" }); // Add an empty page for balance
+// }
 
 const Book = () => {
   return (

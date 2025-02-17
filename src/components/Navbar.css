@@ -14,6 +14,13 @@
   object-fit: contain;
   border-radius: 8px;
 }
+.logo1 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
 .navLinks {
   list-style: none;
@@ -39,6 +46,9 @@
 
 .learnMoreBtn,
 .getStartedBtn {
+  display: flex; /* Align items in a row */
+    align-items: center; /* Vertically center the items */
+    gap: 10px; /* Space between image and text */
   background-color: #374151;
   border: 2px solid #f7f550;
   color: #fff;
@@ -82,7 +92,7 @@
   padding: 10px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  min-width: 220px;
+  min-width: 650px;
 }
 
 .dropdownMenu li {
@@ -131,20 +141,21 @@
   } */
 
   .navLinks {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100%;
+    right: 0;
     background-color: #fff;
-    transform: translateY(-100%);
+   
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    min-width: 550px;
+    transform: translateY(-10%);
     opacity: 0;
     visibility: hidden;
-    z-index: 1000;
-    text-align: center;
-    max-height: 100vh;
-    overflow-y: auto;
   }
 
   .navLinks.open {
@@ -180,18 +191,21 @@
   } */
 
   .navLinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 100%;
+    right: 0;
     background-color: #fff;
-    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    min-width: 550px;
     transform: translateY(-100%);
     opacity: 0;
     visibility: hidden;
-    z-index: 1000;
-    padding: 1rem 0;
-    text-align: center;
   }
 
   .navLinks.open {
@@ -235,6 +249,23 @@
 @media (max-width: 480px) {
   .logo {
     font-size: 1.2rem;
+  }
+  .navLinks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    min-width: 100px;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
   }
 
   .navLinks a {
