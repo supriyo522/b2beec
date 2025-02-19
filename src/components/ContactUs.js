@@ -77,7 +77,7 @@ const ContactUS = () => {
       style={{
         textAlign: "center",
         padding: "50px",
-        backgroundColor: "#fff9e6", // Yellow-themed background
+        backgroundColor: "#ffffff", // Yellow-themed background
       }}
     >
       {contentArray.map((item, index) => (

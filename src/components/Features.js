@@ -1,5 +1,5 @@
 import React from "react";
-import "./Features.css";
+// import "./Features.css";
 
 const Features = () => {
   const gridData = [
@@ -31,8 +31,8 @@ const Features = () => {
   ];
 
   return (
-    <div style={{ textAlign: "center", padding: "50px", backgroundColor: "#fff9e6" }}>
-      <div className="grid-container">
+    <div style={{ textAlign: "center", padding: "50px", backgroundColor: "#ffffff" }}>
+      <div className="grid-container1">
         {gridData.map((item, index) => (
           <div className={`grid-item item-${index + 1}`} key={index}>
             <h2>{item.header}</h2>

@@ -236,8 +236,10 @@
     box-shadow: none;
     display: grid;
     grid-template-columns: 1fr;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
+    width: auto; /* Allow dropdown width to adjust to content */
+  min-width: 150px; /* Set a minimum width */
   }
 
   .dropdownMenu li {
@@ -278,7 +280,9 @@
   }
 
   .dropdownMenu {
-    min-width: 100%;
+    width: auto; /* Allow dropdown width to adjust to content */
+  min-width: 100px; /* Set a minimum width */
+    /* min-width: 100%; */
     text-align: center;
   }
 }

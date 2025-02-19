@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import HTMLFlipBook from "react-pageflip"; // Flipbook package
 import "./Book.css"; // Import styles
 
@@ -44,11 +44,30 @@ const features = [
 // }
 
 const Book = () => {
+  const bookRef = useRef(null);
+  const [currentPage, setCurrentPage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (bookRef.current) {
+        const nextPage = currentPage + 1;
+        if (nextPage < features.length) {
+          bookRef.current.pageFlip().flipNext();
+          setCurrentPage(nextPage);
+        } else {
+          bookRef.current.pageFlip().flip(0); // Reset to first page
+          setCurrentPage(0);
+        }
+      }
+    }, 3000); // Flip every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [currentPage]);
   return (
     <div>
       <h1 className="book-title">Our Features</h1>
     <div className="book-container">
-      <HTMLFlipBook width={400} height={450} className="flipbook">
+      <HTMLFlipBook ref={bookRef} width={400} height={450} className="flipbook">
         {features.map((feature, index) => (
           <div
             key={index}
